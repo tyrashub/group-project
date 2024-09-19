@@ -39,7 +39,7 @@ public class EstyController {
         return "gallery.jsp";
     }
 
-    @GetMapping("/team")
+    @GetMapping("/aboutUs")
     public String showTeam() {
         return "aboutUs.jsp";
     }

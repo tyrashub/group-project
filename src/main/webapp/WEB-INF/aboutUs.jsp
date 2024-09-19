@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en" data-bs-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,16 +43,26 @@
     </style>
 <body>
 <header>
-    <nav>
-        <img src="your-image1.jpg" alt="Description" class="center-image">
-        <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333;">
-            <li style="float: left;"><a href="landing.jsp" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Home</a></li>
-            <li style="float: left;"><a href="aboutUs.jsp" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">About</a></li>
-            <li style="float: left;"><a href="services.jsp" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Services</a></li>
-            <li style="float: left;"><a href="founders.jsp" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Founders</a></li>
-            <li style="float: left;"><a href="gallery.jsp" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Gallery</a></li>
-            <li style="float: left;"><a href="contact.jsp" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Contact</a></li>
-        </ul>
+    <img src="/assets/reg-logo.jpg" alt="Description" style="max-height: 250px;"
+         class="mx-auto d-block center-image reg-logo img-fluid mb-4">
+    <nav class="navbar navbar-expand-lg text-center bg-dark text-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item"><a href="/landing" class="nav-link link-light">Home</a></li>
+                    <li class="nav-item"><a href="/aboutUs" class="nav-link link-light">About</a></li>
+                    <li class="nav-item"><a href="/services" class="nav-link link-light">Services</a></li>
+                    <li class="nav-item"><a href="/careers" class="nav-link link-light">Careers</a></li>
+                    <li class="nav-item"><a href="/gallery" class="nav-link link-light">Gallery</a></li>
+                    <li class="nav-item"><a href="/contact" class="nav-link link-light">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 </header>
 <p>
@@ -85,31 +95,32 @@
         <a href="https://linktr.ee/yourpage" target="_blank"><i class="fab fa-linktree"></i></a>
     </div>
 </div>
-<div class="container">
-    <footer class="py-3 my-4">
+    <footer class="py-3 footer">
         <ul class="nav d-flex justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="landing.jsp" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="aboutUs.jsp" class="nav-link px-2 text-body-secondary">About</a></li>
-            <li class="nav-item"><a href="services.jsp" class="nav-link px-2 text-body-secondary">Services</a></li>
-            <li class="nav-item"><a href="founders.jsp" class="nav-link px-2 text-body-secondary">Founders</a></li>
-            <li class="nav-item"><a href="gallery.jsp" class="nav-link px-2 text-body-secondary">Gallery</a></li>
-            <li class="nav-item"><a href="contact.jsp" class="nav-link px-2 text-body-secondary">Contact</a></li>
+            <li class="nav-item"><a href="/landing" class="nav-link px-2 " style="font-size: larger">Home</a></li>
+            <li class="nav-item"><a href="/aboutUs" class="nav-link px-2 " style="font-size: larger">About</a></li>
+            <li class="nav-item"><a href="/services" class="nav-link px-2 " style="font-size:larger">Services</a></li>
+            <li class="nav-item"><a href="/careers" class="nav-link px-2 " style="font-size: larger">Careers</a></li>
+            <li class="nav-item"><a href="/gallery" class="nav-link px-2 " style="font-size: larger">Gallery</a></li>
+            <li class="nav-item"><a href="/contact" class="nav-link px-2 " style="font-size: larger">Contact</a></li>
         </ul>
-        <img src="founder1.jpg" alt="Logo" class="center-image">
-        <div class="social-icons text-center">
+        <div class="d-flex justify-content-center">
+            <img src="/assets/Logo2.png" alt="Footer Logo" style="max-height: 100px;">
+        </div>
+        <div class="social-icons d-flex justify-content-center footer text-center container">
             <a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="https://twitter.com/yourpage" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com/yourpage" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.tiktok.com/@yourpage" target="_blank"><i class="fab fa-tiktok"></i></a>
-            <a href="https://www.indeed.com/cmp/yourpage" target="_blank"><i class="fab fa-indeed"></i></a>
-            <a href="https://linktr.ee/yourpage" target="_blank"><i class="fab fa-linktree"></i></a>
+            <a href="https://www.indeed.com/cmp/yourpage" target="_blank"><i class="fa-brands fa-invision"></i></a>
+            <a href="https://linktr.ee/yourpage" target="_blank"><i class="fa-solid fa-share-from-square"></i></a>
         </div>
-        <p class="text-center text-body-secondary">© 2024 The Serene Scene Esty Lounge. All rights reserved.</p>
+        <p class="justify-content-center footer" style="color: #304e45">© 2024 The Serene Scene Esty Lounge. All
+            rights reserved.</p>
+        <img src="/assets/pay-icons.png" alt="Pay Icons" class="justify-content-end d-flex">
     </footer>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
 </body>
 </html>
