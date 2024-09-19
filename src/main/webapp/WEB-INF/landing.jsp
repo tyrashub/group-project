@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+<!-- Navigation and Logo Section -->
 <header class="text-center p-3">
     <img src="/assets/reg-logo.jpg" alt="Description" style="max-height: 250px;" class="mx-auto d-block center-image reg-logo img-fluid mb-4">
     <nav>
@@ -33,7 +34,7 @@
     </nav>
 </header>
 <main class="container">
-    <!-- Banner Section -->
+    <!-- Landing Image and Hero Section -->
     <section id="banner" class="card container">
         <div class="image-container">
             <img src="/assets/building.jpg" alt="Building" class="building-img img-fluid">
@@ -44,8 +45,6 @@
             </div>
         </div>
     </section>
-
-
     <!-- Mission Section -->
     <section id="mission" class="card">
         <img src="/assets/reg-logo.jpg" alt="Logo" class="center-image">
@@ -91,6 +90,7 @@
             </div>
         </div>
     </section>
+    <!-- Location and Hours Section -->
     <section id="location" class="card d-flex container">
         <div class="card-body">
         <div id="map" style="height: 400px; width: 100%;">
@@ -120,6 +120,7 @@
         </section>
         </div>
     </section>
+    <!-- Contact Form Section -->
     <section id="contact" class="container d-flex">
         <div class="card shadow mb-3 container">
             <div class="card-body">
@@ -159,7 +160,7 @@
         </div>
     </section>
 </main>
-
+<!-- Footer -->
     <div class="container">
         <footer class="py-3 my-4">
             <ul class="nav d-flex justify-content-center border-bottom pb-3 mb-3">
