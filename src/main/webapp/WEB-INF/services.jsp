@@ -44,85 +44,94 @@
     </nav>
 </header>
 <main class="container">
-    <section>
-<div class=" mb-3" style="background-color: white;">
-    <h1 style="color: #304e45;"><strong>Services</strong></h1>
-        <section class="mb-3">
-            <div class="card">
-                <div class="box">
-                    <div class="image-box">
-                        <img src="/assets/spa3.png" alt="candles" style="max-height: 100px;">
+    <!-- Services Section -->
+    <section class="mt-3">
+        <div class="mb-3" style="background-color: white;">
+            <h1 style="font-size: xxx-large; color: #304e45;"><strong>Services</strong></h1>
+            <!-- Relaxing Facials Card -->
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-2">
+                        <img src="/assets/towels.jpg" class="rounded-start service-img" alt="lash lifting">
                     </div>
-                    <div class="text-box">
-                        <h2>Relaxing Facials</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus excepturi illo placeat.
-                            Assumenda consectetur dolor eos esse eum ex natus neque non omnis provident quaerat qui quis
-                            sequi, velit voluptatum.</p>
-                        <p>Time: Varies $$ Price</p>
-                        <button type="submit" class="btn btn-primary w-50"><a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FSereneScene&e=AT0lSON8fkuxKWABWmOEl6pV8Rm6ncra4JX8hpaGVGQ4m0ee9V6x5P9rZ47hFfRA4WsMW5b5l4H3CyuyPkYPod4Wx7W2Xq8FhKRwEMH5S5Jd-9XwP2KwNA" target="_blank"><i
-                                class="fa-solid fa-share-from-square"></i></a>Book Service</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="mb-3">
-            <div class="card">
-                <div class="box">
-                    <div class="image-box">
-                        <img src="/assets/soap.png" alt="specialty waxing" style="max-height: 100px;">
-                    </div>
-                    <div class="text-box">
-                        <h2>Specialty Waxing</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur cupiditate
-                            deleniti dicta eaque est excepturi exercitationem facere id illum, impedit nemo odio omnis
-                            perspiciatis quidem quis, sed similique unde.</p>
-                        <p>Time: Varies $$ Price</p>
-                        <button type="submit" class="btn btn-primary w-50"><a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FSereneScene&e=AT0lSON8fkuxKWABWmOEl6pV8Rm6ncra4JX8hpaGVGQ4m0ee9V6x5P9rZ47hFfRA4WsMW5b5l4H3CyuyPkYPod4Wx7W2Xq8FhKRwEMH5S5Jd-9XwP2KwNA" target="_blank"><i
-                                class="fa-solid fa-share-from-square"></i></a>Book Service</button>
+                    <div class="col-md-10">
+                        <div class="card-body">
+                            <h5 class="card-title">Relaxing Facials</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus excepturi illo placeat. Assumenda consectetur dolor eos esse eum ex natus neque non omnis provident quaerat qui quis sequi, velit voluptatum.</p>
+                            <p class="card-text"><small>Time: Varies $$ Price</small></p>
+                            <button type="submit" class="btn btn-primary text-white">Book Service
+                                <a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FSereneScene&e=AT0lSON8fkuxKWABWmOEl6pV8Rm6ncra4JX8hpaGVGQ4m0ee9V6x5P9rZ47hFfRA4WsMW5b5l4H3CyuyPkYPod4Wx7W2Xq8FhKRwEMH5S5Jd-9XwP2KwNA" target="_blank">
+                                    <i class="fa-solid fa-share-from-square text-white"></i>
+                                </a>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <section class="mb-3">
-            <div class="card">
-                <div class="box">
-                    <div class="image-box">
-                        <img src="/assets/spa2.png" alt="specialty waxing" style="max-height: 100px;">
+            <!-- Specialty Waxing Card -->
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-2">
+                        <img src="/assets/towels.jpg" class="rounded-start service-img" alt="lash lifting">
                     </div>
-                    <div class="text-box">
-                        <h2>Eyebrow Tinting</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque commodi deserunt
-                            facilis harum id illum iure, magni nisi obcaecati officiis quaerat quos saepe sequi sit
-                            voluptas voluptates voluptatibus. Commodi.</p>
-                        <p>Time: Varies $$ Price</p>
-                        <button type="submit" class="btn btn-primary w-50"><a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FSereneScene&e=AT0lSON8fkuxKWABWmOEl6pV8Rm6ncra4JX8hpaGVGQ4m0ee9V6x5P9rZ47hFfRA4WsMW5b5l4H3CyuyPkYPod4Wx7W2Xq8FhKRwEMH5S5Jd-9XwP2KwNA" target="_blank"><i
-                                class="fa-solid fa-share-from-square"></i></a>Book Service</button>
+                    <div class="col-md-10">
+                        <div class="card-body">
+                            <h5 class="card-title">Specialty Waxing</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur cupiditate deleniti dicta eaque est excepturi exercitationem facere id illum.</p>
+                            <p class="card-text"><small>Time: Varies $$ Price</small></p>
+                            <button type="submit" class="btn btn-primary text-white">Book Service
+                                <a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FSereneScene&e=AT0lSON8fkuxKWABWmOEl6pV8Rm6ncra4JX8hpaGVGQ4m0ee9V6x5P9rZ47hFfRA4WsMW5b5l4H3CyuyPkYPod4Wx7W2Xq8FhKRwEMH5S5Jd-9XwP2KwNA" target="_blank">
+                                    <i class="fa-solid fa-share-from-square text-white"></i>
+                                </a>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <section class="mb-3">
-            <div class="card">
-                <div class="box">
-                    <div class="image-box">
-                        <img src="/assets/towels (1).jpg" alt="specialty waxing" style="max-height: 100px;">
+            <!-- Eyebrow Tinting Card -->
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-2">
+                        <img src="/assets/towels.jpg" class="rounded-start service-img" alt="lash lifting">
                     </div>
-                    <div class="text-box">
-                        <h2>Lash Lifting</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi consequuntur
-                            delectus earum eos ipsam labore laudantium libero molestias nam necessitatibus nisi nostrum,
-                            porro provident quam qui, quis suscipit voluptatem!</p>
-                        <p>Time: Varies $$ Price</p>
-                        <button type="submit" class="btn btn-primary w-50"><a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FSereneScene&e=AT0lSON8fkuxKWABWmOEl6pV8Rm6ncra4JX8hpaGVGQ4m0ee9V6x5P9rZ47hFfRA4WsMW5b5l4H3CyuyPkYPod4Wx7W2Xq8FhKRwEMH5S5Jd-9XwP2KwNA" target="_blank"><i
-                                class="fa-solid fa-share-from-square"></i></a>Book Service</button>
+                    <div class="col-md-10">
+                        <div class="card-body">
+                            <h5 class="card-title">Eyebrow Tinting</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque commodi deserunt facilis harum id illum iure.</p>
+                            <p class="card-text"><small>Time: Varies $$ Price</small></p>
+                            <button type="submit" class="btn btn-primary text-white">Book Service
+                                <a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FSereneScene&e=AT0lSON8fkuxKWABWmOEl6pV8Rm6ncra4JX8hpaGVGQ4m0ee9V6x5P9rZ47hFfRA4WsMW5b5l4H3CyuyPkYPod4Wx7W2Xq8FhKRwEMH5S5Jd-9XwP2KwNA" target="_blank">
+                                    <i class="fa-solid fa-share-from-square text-white"></i>
+                                </a>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
-</div>
+
+            <!-- Lash Lifting Card -->
+            <div class="card mb-3" >
+                <div class="row g-0">
+                    <div class="col-md-2">
+                        <img src="/assets/towels.jpg" class="rounded-start service-img" alt="lash lifting">
+                    </div>
+                    <div class="col-md-10">
+                        <div class="card-body">
+                            <h5 class="card-title">Lash Lifting</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi consequuntur delectus earum eos ipsam labore.</p>
+                            <p class="card-text"><small>Time: Varies $$ Price</small></p>
+                            <button type="submit" class="btn btn-primary text-white">Book Service
+                                <a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FSereneScene&e=AT0lSON8fkuxKWABWmOEl6pV8Rm6ncra4JX8hpaGVGQ4m0ee9V6x5P9rZ47hFfRA4WsMW5b5l4H3CyuyPkYPod4Wx7W2Xq8FhKRwEMH5S5Jd-9XwP2KwNA" target="_blank">
+                                    <i class="fa-solid fa-share-from-square text-white"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
     <!-- Footer -->

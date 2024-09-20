@@ -36,16 +36,25 @@ public class EstyController {
 
     @GetMapping("/gallery")
     public String showGallery() {
+
         return "gallery.jsp";
     }
 
     @GetMapping("/aboutUs")
     public String showTeam() {
+
         return "aboutUs.jsp";
     }
 
     @GetMapping("/contact")
     public String showContact() {
+
         return "contactUs.jsp";
+    }
+
+    @GetMapping("/careers")
+    public String showCareers() {
+
+        return "careers.jsp";
     }
 }

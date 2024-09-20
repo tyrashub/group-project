@@ -70,40 +70,40 @@
         </div>
     </div>
 </div>
-    <!-- Testimonials Section -->
-<div class="card shadow mb-3">
-    <div class="card-body">
-        <div class="card-body">
-            <h2 style="font-size: xxx-large; color: #304e45;"><strong>Client Testimonials</strong></h2>
+<%--    <!-- Testimonials Section -->--%>
+<%--<div class="card shadow mb-3">--%>
+<%--    <div class="card-body">--%>
+<%--        <div class="card-body">--%>
+<%--            <h2 style="font-size: xxx-large; color: #304e45;"><strong>Client Testimonials</strong></h2>--%>
 
-            <div class="card">
-                <div class="card-body">
-                    <img src="/" alt="Img 1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <img src="/" alt="Img 2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <img src="/" alt="Img 3">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <img src="/" alt="Img 4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>
-                </div>
-            </div>
+<%--            <div class="card">--%>
+<%--                <div class="card-body">--%>
+<%--                    <img src="/" alt="Img 1">--%>
+<%--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--            <div class="card">--%>
+<%--                <div class="card-body">--%>
+<%--                    <img src="/" alt="Img 2">--%>
+<%--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--            <div class="card">--%>
+<%--                <div class="card-body">--%>
+<%--                    <img src="/" alt="Img 3">--%>
+<%--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--            <div class="card">--%>
+<%--                <div class="card-body">--%>
+<%--                    <img src="/" alt="Img 4">--%>
+<%--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>--%>
+<%--                </div>--%>
+<%--            </div>--%>
 
-        </div>
-    </div>
-</div>
+<%--        </div>--%>
+<%--    </div>--%>
+<%--</div>--%>
 </main>
 <!-- Footer Section -->
 <div class="d-flex justify-content-end mb-3 px-3">
