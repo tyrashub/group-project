@@ -23,7 +23,7 @@
 <header>
     <img src="/assets/reg-logo.jpg" alt="Description" style="max-height: 250px;"
          class="mx-auto d-block center-image reg-logo img-fluid">
-    <nav class="navbar navbar-expand-lg text-center bg-dark text-light">
+    <nav class="navbar navbar-expand-lg text-center p-3 text-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -61,15 +61,17 @@
             <div class="col-4"><img src="/assets/reg-logo.jpg" alt="Logo" class="img-fluid"></div>
             <div class="col-8">
                 <h2 style="color: #304e45;"><strong>Serene Scene Mission</strong></h2>
-                <p>We are delighted to introduce you to The Serene Scene Esty Lounge, an exceptional destination for
-                    luxury skincare, massage, lash services, and cosmetic injections in Duncanville, TX.
-
-                    Our Dedicated Mission:
+                <h5><strong>We are delighted to introduce you to The Serene Scene Esty Lounge, an exceptional destination for
+                    luxury skincare, massage, lash services, and cosmetic injections in Duncanville, TX.</strong>
+                    <br>
+                    <br>
+                    <strong>Our Dedicated Mission:</strong>
+                    <br>
                     At The Serene Scene, our mission is to create a luxurious and supportive environment where
                     estheticians can thrive and innovate. We are dedicated to fostering a community of excellence by
                     providing exceptional space, resources, and support. Our aim is to help our tenants grow their
                     businesses and achieve their professional goals while enhancing the esthetician experience through
-                    outstanding service, collaboration, and a shared passion for beauty and well-being.</p>
+                    outstanding service, collaboration, and a shared passion for beauty and well-being.</h5>
             </div>
         </div>
     </section>
@@ -83,24 +85,30 @@
                          style="border-radius: 10px;">
                 </div>
                 <div class="col-md-8">
-                    <h3>Toni Williams</h3>
-                    <p>
+                    <br>
+                    <br>
+                    <h2><strong>Toni Williams</strong></h2>
+                    <h4>
                         We’re thrilled to introduce Toni Williams, the visionary owner of Serene Scene Esty Lounge! Born
                         and
                         raised in Dallas, Toni began her journey at Texas Southern University, where she danced with the
                         Motion
                         of the Ocean. Craving more flexibility and independence, she shifted her focus to
-                        entrepreneurship.
-                        After returning to Dallas, a simple waxing appointment sparked her interest in esthetics,
+                        entrepreneurship. After returning to Dallas, a simple waxing appointment sparked her interest in
+                        esthetics,
                         leading her to
                         explore the field as a career. Realizing she needed to do things the right way, she enrolled in
                         Ogle
-                        Mockingbird’s esthetician program and earned her license. Now, 5 years later, she’s accomplished
+                        Mockingbird’s esthetician program and earned her license.
+                    </h4>
+                    <br>
+                    <h4>
+                        Now, 5 years later, she’s accomplished
                         her
                         goal of opening her very own spa, all while continuing to run her successful business, Glow On
                         Waxed
                         Off. With many more exciting ventures ahead, Toni’s journey is just beginning!
-                    </p>
+                    </h4>
                 </div>
             </div>
             <div class="row text-lg-end">
@@ -108,23 +116,23 @@
                     <img src="/assets/Akeyia.jpeg" alt="Akeyia Chukes" class="img-fluid founders-img"
                          style="border-radius: 10px;">
                 </div>
-                <div class="col-md-8 order-md-1">
-                    <h3>Akeyia Chukes</h3>
-                    <p>
+                <div class="col-md-8 order-md-1 ">
+                    <br>
+                    <br>
+                    <h2><strong>Akeyia Chukes</strong></h2>
+                    <h4 class="text-end">
                         Akeyia Chukes, 28, is a dedicated and skilled licensed esthetician with three years of
-                        experience, driven
-                        by a deep passion for helping individuals feel their best. Her career began as a freelance
-                        makeup artist
-                        in 2019, evolving into a meaningful way to serve her community and build strong connections
-                        through
-                        beauty. Committed to advancing her expertise, Akeyia graduated from Ogle Hair Skin and Nails in
-                        2021 and
-                        holds certification from The National Laser Institute. As Co-Owner of The Serene Scene Esty
-                        Lounge, she
-                        is enthusiastic about creating a refined environment where both she and her tenants can achieve
-                        personal
-                        and professional growth.
-                    </p>
+                        experience, driven by a deep passion for helping individuals feel their best. Her career began
+                        as a freelance
+                        makeup artist in 2019, evolving into a meaningful way to serve her community and build strong
+                        connections
+                        through beauty. Committed to advancing her expertise, Akeyia graduated from Ogle Hair Skin and
+                        Nails in
+                        2021 and holds certification from The National Laser Institute.
+                        As Co-Owner of The Serene Scene Esty Lounge, she is enthusiastic about creating a refined
+                        environment where both she and her tenants can achieve
+                        personal and professional growth.
+                    </h4>
                 </div>
             </div>
         </div>
@@ -135,26 +143,26 @@
         <div class="card-body">
             <h1 style="color: #304e45;"><strong>Our Services</strong></h1>
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-lg-2">
                     <ul style="font-size: larger;">
-                        <li>Estheticians</li>
-                        <li>Nail Artists</li>
-                        <li>Makeup Artists</li>
-                        <li>Lash Technicians</li>
-                        <li>Facial Specialists</li>
-                        <li>Wax Technicians</li>
-                        <li>Lip Filler Techs</li>
-                        <li>Teeth Whitening</li>
-                        <li>Permanent MUAs</li>
+                        <li><strong>Estheticians</strong></li>
+                        <li><strong>Nail Artists</strong></li>
+                        <li><strong>Makeup Artists</strong></li>
+                        <li><strong>Permanent MUA</strong></li>
+                        <li><strong>Lash Technicians</strong></li>
+                        <li><strong>Facial Specialists</strong></li>
+                        <li><strong>Wax Technicians</strong></li>
+                        <li><strong>Lip Filler Techs</strong></li>
+                        <li><strong>Teeth Whitening</strong></li>
                     </ul>
-                    <button type="button" class="btn btn-primary">
+                    <button type="button" class="btn btn-sm btn-primary py-1">
                         <a href="/services" class="text-white" style="text-decoration: none;">View more</a>
                     </button>
                 </div>
-                <div class="col-md-5">
+                <div class="col-lg-5">
                     <img src="/assets/service.png" alt="Service Description" class="services-img img-fluid">
                 </div>
-                <div class="col-md-5">
+                <div class="col-lg-5">
                     <img src="/assets/nails.png" alt="Nails Description" class="services-img img-fluid">
                 </div>
             </div>
@@ -202,11 +210,13 @@
                         <h4 class="text-justify">Please fill out this form, it helps us with our business.</h4>
                         <br>
                         <br>
-                        <h4 class="text-justify"> For faster response, email us anytime at (Email address)!</h4>
-                        <img src="/assets/reg-logo.jpg" alt="logo" class="reg-logo img-fluid" style="max-height: 400px;">
+                        <h4 class="text-justify"> For faster response, email us anytime at <a
+                                href="mailto:thestudioconceptdal@gmail.com">thestudioconceptdal@gmail.com!</a></h4>
+                        <img src="/assets/reg-logo.jpg" alt="logo" class="reg-logo img-fluid"
+                             style="max-height: 400px;">
                     </div>
                     <div class="col-md-6">
-                        <form action="/submitContact" method="post">
+                        <form action="/submitContact" method="post" style="background-color: #d4f5d4; padding: 30px; border-radius: 10px;">
                             <div class="mb-3">
                                 <label for="name" class="form-label">Name:</label>
                                 <input type="text" id="name" name="name" class="form-control" required>
@@ -265,12 +275,18 @@
 </div>
 <footer class="py-3 footer">
     <ul class="nav d-flex justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="/landing" class="nav-link px-2 " style="font-size: larger">Home</a></li>
-        <li class="nav-item"><a href="/aboutUs" class="nav-link px-2 " style="font-size: larger">About</a></li>
-        <li class="nav-item"><a href="/services" class="nav-link px-2 " style="font-size:larger">Services</a></li>
-        <li class="nav-item"><a href="/careers" class="nav-link px-2 " style="font-size: larger">Careers</a></li>
-        <li class="nav-item"><a href="/gallery" class="nav-link px-2 " style="font-size: larger">Gallery</a></li>
-        <li class="nav-item"><a href="/contact" class="nav-link px-2 " style="font-size: larger">Contact</a></li>
+        <li class="nav-item"><a href="/landing" class="nav-link px-2 "
+                                style="color: #304e45; font-size: larger">Home</a></li>
+        <li class="nav-item"><a href="/aboutUs" class="nav-link px-2 "
+                                style="color: #304e45; font-size: larger">About</a></li>
+        <li class="nav-item"><a href="/services" class="nav-link px-2 " style="color: #304e45; font-size:larger">Services</a>
+        </li>
+        <li class="nav-item"><a href="/careers" class="nav-link px-2 "
+                                style="color: #304e45; font-size: larger">Careers</a></li>
+        <li class="nav-item"><a href="/gallery" class="nav-link px-2 "
+                                style="color: #304e45; font-size: larger">Gallery</a></li>
+        <li class="nav-item"><a href="/contact" class="nav-link px-2 "
+                                style="color: #304e45; font-size: larger">Contact</a></li>
     </ul>
     <div class="d-flex justify-content-center">
         <img src="/assets/Logo2.png" alt="Footer Logo" style="max-height: 100px;">
@@ -282,10 +298,10 @@
         <a href="https://www.tiktok.com/@yourpage" target="_blank"><i class="fab fa-tiktok"></i></a>
         <a href="https://www.indeed.com/cmp/yourpage" target="_blank"><i class="fa-brands fa-invision"></i></a>
         <a href="https://linktr.ee/yourpage" target="_blank"><i class="fa-solid fa-share-from-square"></i></a>
+        <img src="/assets/pay-icons.png" class="d-flex justify-content-end" alt="Pay Icons">
     </div>
-    <p class="text-center footer" style="color: #304e45;">© 2024 The Serene Scene Esty Lounge. All
+    <p class="text-center mt-2" style="color: #304e45;">© 2024 The Serene Scene Esty Lounge. All
         rights reserved.</p>
-    <div class="d-flex justify-content-end"><img src="/assets/pay-icons.png" alt="Pay Icons"></div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
