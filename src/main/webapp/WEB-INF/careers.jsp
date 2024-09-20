@@ -45,20 +45,21 @@
 </header>
 <main class="container">
     <!-- Career Main Section -->
-    <div class="row mt-5">
+    <div class="row mt-4">
         <div class="col-md-12 text-center">
             <h1 style="color: #304e45;"><strong>Looking for a Serene Space to Grow Your Business?</strong></h1>
             <h4 class="mt-3"><strong>We have 2 private suites and an open floor space available for immediate
                 move-in!</strong></h4>
         </div>
     </div>
-    <div class="row mt-4">
+    <div class="row">
         <div class="col-md-12 text-center">
             <div class="card shadow mb-3" style="">
                 <div class="card-body">
                     <h2><strong>🌟 Special Offer:</strong></h2>
                     <h5><strong>MOVE-IN SPECIAL:</strong> Email <a href="mailto:thestudioconceptdal@gmail.com"
-                                                  class="text-info-emphasis">thestudioconceptdal@gmail.com</a> to book a
+                                                                   class="text-info-emphasis">thestudioconceptdal@gmail.com</a>
+                        to book a
                         tour and find out your options!</h5>
                     <h5>Weekly or monthly rent options available.</h5>
                 </div>
@@ -68,20 +69,21 @@
     <div class="row mt-4">
         <div class="col-md-12 text-center">
             <h3><strong>📞 Contact Us Today to Schedule a Tour and Secure Your Space!</strong></h3>
-            <p><strong>Requirements:</strong> Must be licensed, have proof of insurance. Deposit and first month's
-                rental fee due upon move-in.</p>
-            <p>Join our peaceful and professional beauty community today!</p>
+            <h6><strong>Requirements:</strong> Must be licensed and have proof of insurance. Deposit and first
+                month's
+                rental fee due upon move-in.</h6>
+            <h6>Join our peaceful and professional beauty community today!</h6>
         </div>
     </div>
     <div class="row mt-4">
-        <!-- Flexbox container to align both cards -->
-        <div class="d-flex align-items-stretch gap-3">
+        <div class="d-flex align-items-stretch gap-2">
             <!-- Location Features Card -->
             <div class="col-md-6 d-flex">
                 <div class="card mb-3 shadow-sm w-100">
                     <div class="row g-0">
                         <div class="col-md-6 order-md-2">
-                            <img src="/assets/building.jpg" class="img-fluid rounded-start" alt="Building" style="width: 100%; height: auto;">
+                            <img src="/assets/building.jpg" class="img-fluid" alt="Building"
+                                 style="width: 100%; height: 350px; border-radius: 10px;">
                         </div>
                         <div class="col-md-6 order-md-1">
                             <div class="card-body">
@@ -104,13 +106,13 @@
                     </div>
                 </div>
             </div>
-
             <!-- Ideal For Card -->
             <div class="col-md-6 d-flex">
                 <div class="card mb-3 shadow-sm w-100">
                     <div class="row g-0">
                         <div class="col-md-6 order-md-2">
-                            <img src="/assets/space.jpg" class="img-fluid rounded-start" alt="Ideal For" style="width: 100%; height: auto;">
+                            <img src="/assets/room.jpg" class="img-fluid" alt="Ideal For"
+                                 style="width: 100%; height: 350px; border-radius: 10px;">
                         </div>
                         <div class="col-md-6 order-md-1">
                             <div class="card-body">

@@ -52,15 +52,16 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-2">
-                        <img src="/assets/towels.jpg" class="rounded-start service-img" alt="lash lifting">
+                        <img src="/assets/facial.jpg" class="service-img" alt="lash lifting">
                     </div>
                     <div class="col-md-10">
                         <div class="card-body">
-                            <h5 class="card-title">Relaxing Facials</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus excepturi illo placeat. Assumenda consectetur dolor eos esse eum ex natus neque non omnis provident quaerat qui quis sequi, velit voluptatum.</p>
-                            <p class="card-text"><small>Time: Varies $$ Price</small></p>
-                            <button type="submit" class="btn btn-primary text-white">Book Service
-                                <a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FSereneScene&e=AT0lSON8fkuxKWABWmOEl6pV8Rm6ncra4JX8hpaGVGQ4m0ee9V6x5P9rZ47hFfRA4WsMW5b5l4H3CyuyPkYPod4Wx7W2Xq8FhKRwEMH5S5Jd-9XwP2KwNA" target="_blank">
+                            <h3 class="card-title">Relaxing Facials</h3>
+                            <h6 class="card-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Metus cras sociosqu maximus justo scelerisque velit. Velit augue ad praesent massa iaculis. Est duis duis habitant viverra lacinia turpis varius mus. Neque id senectus erat torquent ridiculus ipsum. Magna molestie ligula, blandit mattis malesuada massa nec.</h6>
+                            <p class="card-text"><small><strong>Time: Varies Price: $$</strong></small></p>
+                            <button type="submit" class="btn btn-primary text-white">
+                                <a href="https://linktr.ee/SereneScene" target="_blank" class="text-white text-decoration-none">
+                                    Book Service
                                     <i class="fa-solid fa-share-from-square text-white"></i>
                                 </a>
                             </button>
@@ -73,15 +74,16 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-2">
-                        <img src="/assets/towels.jpg" class="rounded-start service-img" alt="lash lifting">
+                        <img src="/assets/green.jpg" class="service-img" alt="lash lifting">
                     </div>
                     <div class="col-md-10">
                         <div class="card-body">
-                            <h5 class="card-title">Specialty Waxing</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur cupiditate deleniti dicta eaque est excepturi exercitationem facere id illum.</p>
-                            <p class="card-text"><small>Time: Varies $$ Price</small></p>
-                            <button type="submit" class="btn btn-primary text-white">Book Service
-                                <a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FSereneScene&e=AT0lSON8fkuxKWABWmOEl6pV8Rm6ncra4JX8hpaGVGQ4m0ee9V6x5P9rZ47hFfRA4WsMW5b5l4H3CyuyPkYPod4Wx7W2Xq8FhKRwEMH5S5Jd-9XwP2KwNA" target="_blank">
+                            <h3 class="card-title">Specialty Waxing</h3>
+                            <h6 class="card-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Metus cras sociosqu maximus justo scelerisque velit. Velit augue ad praesent massa iaculis. Est duis duis habitant viverra lacinia turpis varius mus. Neque id senectus erat torquent ridiculus ipsum. Magna molestie ligula, blandit mattis malesuada massa nec.</h6>
+                            <p class="card-text"><small><strong>Time: Varies Price: $$</strong></small></p>
+                            <button type="submit" class="btn btn-primary text-white">
+                                <a href="https://linktr.ee/SereneScene" target="_blank" class="text-white text-decoration-none">
+                                    Book Service
                                     <i class="fa-solid fa-share-from-square text-white"></i>
                                 </a>
                             </button>
@@ -94,15 +96,16 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-2">
-                        <img src="/assets/towels.jpg" class="rounded-start service-img" alt="lash lifting">
+                        <img src="/assets/brows.jpg" class="service-img" alt="lash lifting">
                     </div>
                     <div class="col-md-10">
                         <div class="card-body">
-                            <h5 class="card-title">Eyebrow Tinting</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque commodi deserunt facilis harum id illum iure.</p>
-                            <p class="card-text"><small>Time: Varies $$ Price</small></p>
-                            <button type="submit" class="btn btn-primary text-white">Book Service
-                                <a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FSereneScene&e=AT0lSON8fkuxKWABWmOEl6pV8Rm6ncra4JX8hpaGVGQ4m0ee9V6x5P9rZ47hFfRA4WsMW5b5l4H3CyuyPkYPod4Wx7W2Xq8FhKRwEMH5S5Jd-9XwP2KwNA" target="_blank">
+                            <h3 class="card-title">Eyebrow Tinting</h3>
+                            <h6 class="card-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Metus cras sociosqu maximus justo scelerisque velit. Velit augue ad praesent massa iaculis. Est duis duis habitant viverra lacinia turpis varius mus. Neque id senectus erat torquent ridiculus ipsum. Magna molestie ligula, blandit mattis malesuada massa nec.</h6>
+                            <p class="card-text"><small><strong>Time: Varies Price: $$</strong></small></p>
+                            <button type="submit" class="btn btn-primary text-white">
+                                <a href="https://linktr.ee/SereneScene" target="_blank" class="text-white text-decoration-none">
+                                    Book Service
                                     <i class="fa-solid fa-share-from-square text-white"></i>
                                 </a>
                             </button>
@@ -115,15 +118,16 @@
             <div class="card mb-3" >
                 <div class="row g-0">
                     <div class="col-md-2">
-                        <img src="/assets/towels.jpg" class="rounded-start service-img" alt="lash lifting">
+                        <img src="/assets/lash.jpg" class="service-img" alt="lash lifting">
                     </div>
                     <div class="col-md-10">
                         <div class="card-body">
-                            <h5 class="card-title">Lash Lifting</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi consequuntur delectus earum eos ipsam labore.</p>
-                            <p class="card-text"><small>Time: Varies $$ Price</small></p>
-                            <button type="submit" class="btn btn-primary text-white">Book Service
-                                <a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FSereneScene&e=AT0lSON8fkuxKWABWmOEl6pV8Rm6ncra4JX8hpaGVGQ4m0ee9V6x5P9rZ47hFfRA4WsMW5b5l4H3CyuyPkYPod4Wx7W2Xq8FhKRwEMH5S5Jd-9XwP2KwNA" target="_blank">
+                            <h3 class="card-title">Lash Lifting</h3>
+                            <h6 class="card-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Metus cras sociosqu maximus justo scelerisque velit. Velit augue ad praesent massa iaculis. Est duis duis habitant viverra lacinia turpis varius mus. Neque id senectus erat torquent ridiculus ipsum. Magna molestie ligula, blandit mattis malesuada massa nec.</h6>
+                            <p class="card-text"><small><strong>Time: Varies Price: $$</strong></small></p>
+                            <button type="submit" class="btn btn-primary text-white">
+                                <a href="https://linktr.ee/SereneScene" target="_blank" class="text-white text-decoration-none">
+                                    Book Service
                                     <i class="fa-solid fa-share-from-square text-white"></i>
                                 </a>
                             </button>
