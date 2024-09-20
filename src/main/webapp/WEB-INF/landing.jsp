@@ -23,7 +23,7 @@
 <header>
     <img src="/assets/reg-logo.jpg" alt="Description" style="max-height: 250px;"
          class="mx-auto d-block center-image reg-logo img-fluid">
-    <nav class="navbar navbar-expand-lg text-center p-3 text-light">
+    <nav class="navbar navbar-expand-lg text-center bg-dark p-3 text-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -61,7 +61,8 @@
             <div class="col-4"><img src="/assets/reg-logo.jpg" alt="Logo" class="img-fluid"></div>
             <div class="col-8">
                 <h2 style="color: #304e45;"><strong>Serene Scene Mission</strong></h2>
-                <h5><strong>We are delighted to introduce you to The Serene Scene Esty Lounge, an exceptional destination for
+                <h5><strong>We are delighted to introduce you to The Serene Scene Esty Lounge, an exceptional
+                    destination for
                     luxury skincare, massage, lash services, and cosmetic injections in Duncanville, TX.</strong>
                     <br>
                     <br>
@@ -120,15 +121,17 @@
                     <br>
                     <br>
                     <h2><strong>Akeyia Chukes</strong></h2>
-                    <h4 class="text-end">
+                    <h4 class="text-justify">
                         Akeyia Chukes, 28, is a dedicated and skilled licensed esthetician with three years of
-                        experience, driven by a deep passion for helping individuals feel their best. Her career began
-                        as a freelance
-                        makeup artist in 2019, evolving into a meaningful way to serve her community and build strong
-                        connections
-                        through beauty. Committed to advancing her expertise, Akeyia graduated from Ogle Hair Skin and
-                        Nails in
-                        2021 and holds certification from The National Laser Institute.
+                        experience, driven by a deep passion for helping individuals feel their best.
+                        Her career began as a freelance makeup artist in 2019,
+                        evolving into a meaningful way to serve her community and build strong
+                        connections through beauty.
+                        <br>
+                        Committed to advancing her expertise, Akeyia graduated from Ogle Hair Skin and
+                        Nails in 2021 and holds certification from The National Laser Institute.
+                        <br>
+                        <br>
                         As Co-Owner of The Serene Scene Esty Lounge, she is enthusiastic about creating a refined
                         environment where both she and her tenants can achieve
                         personal and professional growth.
@@ -216,7 +219,8 @@
                              style="max-height: 400px;">
                     </div>
                     <div class="col-md-6">
-                        <form action="/submitContact" method="post" style="background-color: #d4f5d4; padding: 30px; border-radius: 10px;">
+                        <form action="/submitContact" method="post"
+                              style="background-color: #d4f5d4; padding: 30px; border-radius: 10px;">
                             <div class="mb-3">
                                 <label for="name" class="form-label">Name:</label>
                                 <input type="text" id="name" name="name" class="form-control" required>

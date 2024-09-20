@@ -13,7 +13,7 @@
 <header>
     <img src="/assets/reg-logo.jpg" alt="Description" style="max-height: 250px;"
          class="mx-auto d-block center-image reg-logo img-fluid">
-    <nav class="navbar navbar-expand-lg text-center p-3 text-light">
+    <nav class="navbar navbar-expand-lg text-center bg-dark p-3 text-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

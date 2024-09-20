@@ -1,4 +1,13 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%-- c:out ; c:forEach etc. --%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%-- Formatting (dates) --%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%-- form:form --%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
+<%-- for rendering errors on PUT routes --%>
+<%@ page isErrorPage="true" %>
+
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="light">
 <head>
@@ -6,101 +15,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services Page</title>
     <link rel="stylesheet" href="/css/bootstrap (minty).css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
 
-        .card {
-            background-color: #d4f5d4;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            color: #333; /* Dark gray font color */
-        }
-
-        .container {
-            display: flex;
-        }
-
-        aside {
-            width: 30%;
-            padding: 20px;
-            background-color: #f4f4f4;
-            margin-right: 20px;
-        }
-
-        #map {
-            width: 70%;
-            height: 400px;
-        }
-
-        .social-icons a {
-            margin: 0 10px;
-            color: #333;
-            text-decoration: none;
-            font-size: 24px;
-        }
-
-        .center-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        /*//*/
-        .card {
-            background-color: #d4f5d4;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .box {
-            display: flex;
-            align-items: center;
-        }
-
-        .image-box {
-            margin-right: 20px;
-        }
-
-        .text-box {
-            flex: 1;
-        }
-
-
-    </style>
 <body>
+<!-- Navigation and Logo Section -->
 <header>
-    <nav>
-        <img src="/assets/reg-logo.jpg" alt="Description" style="max-height: 250px;"
-             class="mx-auto d-block center-image reg-logo img-fluid mb-4">
-        <ul class="nav justify-content-center" style=" background-color: #333;">
-            <li style="float: left;"><a href="landing.jsp"
-                                        style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Home</a>
-            </li>
-            <li style="float: left;"><a href="aboutUs.jsp"
-                                        style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">About</a>
-            </li>
-            <li style="float: left;"><a href="services.jsp"
-                                        style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Services</a>
-            </li>
-            <li style="float: left;"><a href="founders.jsp"
-                                        style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Founders</a>
-            </li>
-            <li style="float: left;"><a href="gallery.jsp"
-                                        style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Gallery</a>
-            </li>
-            <li style="float: left;"><a href="contact.jsp"
-                                        style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Contact</a>
-            </li>
-        </ul>
+    <img src="/assets/reg-logo.jpg" alt="Description" style="max-height: 250px;"
+         class="mx-auto d-block center-image reg-logo img-fluid">
+    <nav class="navbar navbar-expand-lg text-center bg-dark p-3 text-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item"><a href="/landing" class="nav-link link-light">Home</a></li>
+                    <li class="nav-item"><a href="/aboutUs" class="nav-link link-light">About</a></li>
+                    <li class="nav-item"><a href="/services" class="nav-link link-light">Services</a></li>
+                    <li class="nav-item"><a href="/careers" class="nav-link link-light">Careers</a></li>
+                    <li class="nav-item"><a href="/gallery" class="nav-link link-light">Gallery</a></li>
+                    <li class="nav-item"><a href="/contact" class="nav-link link-light">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 </header>
-<h2 style="Color: green" class="display-3">Our Services</h2>
-<div class="card shadow mb-3">
-    <div class="card-body">
+<main class="container">
+    <section>
+<div class=" mb-3" style="background-color: white;">
+    <h1 style="color: #304e45;"><strong>Services</strong></h1>
         <section class="mb-3">
             <div class="card">
                 <div class="box">
@@ -177,39 +123,61 @@
         </section>
     </div>
 </div>
-<footer class="py-3 my-4 footer">
-    <ul class="container nav d-flex justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="/landing" class="nav-link px-2 " style="font-size: larger">Home</a>
-        </li>
-        <li class="nav-item"><a href="/aboutUs" class="nav-link px-2 " style="font-size: larger">About</a>
-        </li>
-        <li class="nav-item"><a href="/services" class="nav-link px-2 "
-                                style="font-size:larger">Services</a></li>
-        <li class="nav-item"><a href="/careers" class="nav-link px-2 " style="font-size: larger">Careers</a>
-        </li>
-        <li class="nav-item"><a href="/gallery" class="nav-link px-2 " style="font-size: larger">Gallery</a>
-        </li>
-        <li class="nav-item"><a href="/contact" class="nav-link px-2 " style="font-size: larger">Contact</a>
-        </li>
-    </ul>
-    <div class="d-flex justify-content-center">
-        <img src="/assets/Logo2.png" alt="Footer Logo" style="max-height: 100px;">
+    </section>
+</main>
+    <!-- Footer -->
+    <div class="d-flex justify-content-end mb-3 px-3">
+        <a href="#" class="btn btn-primary back-to-top" id="backToTop">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+        <script>
+            window.onscroll = function () {
+                let backToTopButton = document.getElementById("backToTop");
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    backToTopButton.style.display = "block";
+                } else {
+                    backToTopButton.style.display = "none";
+                }
+            };
+
+            document.getElementById("backToTop").addEventListener("click", function (event) {
+                event.preventDefault();
+                window.scrollTo({top: 0, behavior: "smooth"});
+            });
+        </script>
     </div>
-    <div class="social-icons d-flex justify-content-center footer text-center container">
-        <a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://twitter.com/yourpage" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/yourpage" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.tiktok.com/@yourpage" target="_blank"><i class="fab fa-tiktok"></i></a>
-        <a href="https://www.indeed.com/cmp/yourpage" target="_blank"><i class="fa-brands fa-invision"></i></a>
-        <a href="https://linktr.ee/yourpage" target="_blank"><i
-                class="fa-solid fa-share-from-square"></i></a>
-    </div>
-    <p class="justify-content-center container footer" style="color: #304e45">© 2024 The Serene Scene Esty
-        Lounge. All rights reserved.</p>
-    <img src="/assets/pay-icons.png" alt="Pay Icons" class="justify-content-end d-flex">
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <footer class="py-3 footer">
+        <ul class="nav d-flex justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="/landing" class="nav-link px-2 "
+                                    style="color: #304e45; font-size: larger">Home</a></li>
+            <li class="nav-item"><a href="/aboutUs" class="nav-link px-2 "
+                                    style="color: #304e45; font-size: larger">About</a></li>
+            <li class="nav-item"><a href="/services" class="nav-link px-2 " style="color: #304e45; font-size:larger">Services</a>
+            </li>
+            <li class="nav-item"><a href="/careers" class="nav-link px-2 "
+                                    style="color: #304e45; font-size: larger">Careers</a></li>
+            <li class="nav-item"><a href="/gallery" class="nav-link px-2 "
+                                    style="color: #304e45; font-size: larger">Gallery</a></li>
+            <li class="nav-item"><a href="/contact" class="nav-link px-2 "
+                                    style="color: #304e45; font-size: larger">Contact</a></li>
+        </ul>
+        <div class="d-flex justify-content-center">
+            <img src="/assets/Logo2.png" alt="Footer Logo" style="max-height: 100px;">
+        </div>
+        <div class="social-icons d-flex justify-content-center footer text-center container">
+            <a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/yourpage" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yourpage" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@yourpage" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.indeed.com/cmp/yourpage" target="_blank"><i class="fa-brands fa-invision"></i></a>
+            <a href="https://linktr.ee/yourpage" target="_blank"><i class="fa-solid fa-share-from-square"></i></a>
+            <img src="/assets/pay-icons.png" class="d-flex justify-content-end" alt="Pay Icons">
+        </div>
+        <p class="text-center mt-2" style="color: #304e45;">© 2024 The Serene Scene Esty Lounge. All
+            rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
 </body>
 </html>
