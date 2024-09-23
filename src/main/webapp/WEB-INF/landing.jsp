@@ -9,7 +9,7 @@
 <%@ page isErrorPage="true" %>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,7 +49,7 @@
         <div class="image-container">
             <img src="/assets/building.jpg" alt="Building" class="building-img img-fluid" style="border-radius: 10px;">
             <div class="overlay-text">
-                <h3 class="text-white"><strong>Empowering Entrepreneurs, One Space at a Time.</strong></h3>
+                <h3 class="text-white fst-italic"><strong>Empowering Entrepreneurs, One Space at a Time.</strong></h3>
                 <p>Creating an inspiring and supportive environment for estheticians and service providers.</p>
                 <a href="/contact" class="btn btn-primary animated-btn">Click for more!</a>
             </div>
@@ -60,7 +60,7 @@
         <div class="row">
             <div class="col-4"><img src="/assets/reg-logo.jpg" alt="Logo" class="img-fluid"></div>
             <div class="col-8">
-                <h2 style="color: #304e45;"><strong>Serene Scene Mission</strong></h2>
+                <h2 class="fst-italic" style="color: #304e45;"><strong>The Serene Scene Mission</strong></h2>
                 <h5><strong>We are delighted to introduce you to The Serene Scene Esty Lounge, an exceptional
                     destination for
                     luxury skincare, massage, lash services, and cosmetic injections in Duncanville, TX.</strong>
@@ -143,10 +143,10 @@
     <!-- Services Section -->
     <section id="services" class="card mb-3">
         <div class="card-body">
-            <h1 style="color: #304e45;"><strong>Our Services</strong></h1>
+            <h1 class="mb-4" style="color: #304e45;"><strong>Our Service Professionals</strong></h1>
             <div class="row">
                 <div class="col-lg-2">
-                    <ul style="font-size: larger;">
+                    <ul style="font-size: 19px;">
                         <li><strong>Estheticians</strong></li>
                         <li><strong>Nail Artists</strong></li>
                         <li><strong>Makeup Artists</strong></li>
@@ -156,13 +156,16 @@
                         <li><strong>Wax Technicians</strong></li>
                         <li><strong>Lip Filler Techs</strong></li>
                         <li><strong>Teeth Whitening</strong></li>
+                        <li><strong>Other Spa Professionals</strong></li>
                     </ul>
-                    <button type="button" class="btn btn-sm btn-primary py-1">
-                        <a href="/services" class="text-white" style="text-decoration: none;">View more</a>
-                    </button>
+<%--                    <div style="text-align: center; margin-top: 10px;">--%>
+<%--                        <button type="button" class="btn btn-lg btn-primary py-1">--%>
+<%--                            <a href="/services" class="text-white" style="text-decoration: none;">View more</a>--%>
+<%--                        </button>--%>
+<%--                    </div>--%>
                 </div>
                 <div class="col-lg-5">
-                    <img src="/assets/service.png" alt="Service Description" class="services-img img-fluid">
+                    <img src="/assets/service.png" alt="Service Description" class="services-img img-fluid mb-n3">
                 </div>
                 <div class="col-lg-5">
                     <img src="/assets/nails.png" alt="Nails Description" class="services-img img-fluid">
@@ -194,7 +197,7 @@
                 <h1 style="color: #304e45;"><strong>Location & Salon Hours</strong></h1>
                 <h4><strong>The Serene Scene Esty Lounge</strong></h4>
                 <h5><strong>118 N Main, Duncanville, Texas 75116</strong></h5>
-                <p><strong>(Email Address)</strong></p>
+                <p><a href="mailto:thestudioconceptdal@gmail.com">thestudioconceptdal@gmail.com</a></p>
                 <p><strong>(Phone Number)</strong></p>
                 <p>Monday-Friday: 9am - 5pm</p>
                 <p>Saturday: 9am - 5pm</p>
@@ -206,20 +209,19 @@
     <section id="contact">
         <div class="card shadow mb-3" style="background-color: white;">
             <div class="card-body">
-                <h1 style="color: #304e45;"><strong>Contact Us</strong></h1>
-                <div class="row mt-3">
-                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
-                        <h4 class="text-justify">Please fill out this form, it helps us with our business.</h4>
+                <h1 style="font-size: xxx-large; color: #304e45;"><strong>Contact Us</strong></h1>
+                <div class="row">
+                    <div class="col-md-6 mt-3">
+                        <h3 class="text-justify">If you are interested in becoming a Tenant and offering your services,
+                            please fill out this form and we will get back to you promptly!</h3>
                         <br>
-                        <br>
-                        <h4 class="text-justify"> For faster response, email us anytime at <a
-                                href="mailto:thestudioconceptdal@gmail.com">thestudioconceptdal@gmail.com!</a></h4>
+                        <h3 class="text-justify">For faster response, email us anytime at
+                            <a href="mailto:thestudioconceptdal@gmail.com">thestudioconceptdal@gmail.com!</a></h3>
                         <img src="/assets/reg-logo.jpg" alt="logo" class="reg-logo img-fluid"
-                             style="max-height: 400px;">
+                             style="max-height: 550px;">
                     </div>
                     <div class="col-md-6">
-                        <form action="/submitContact" method="post"
-                              style="background-color: #d4f5d4; padding: 30px; border-radius: 10px;">
+                        <form action="/submitContact" method="post"  style="background-color: #d4f5d4; padding: 30px; border-radius: 10px;">
                             <div class="mb-3">
                                 <label for="name" class="form-label">Name:</label>
                                 <input type="text" id="name" name="name" class="form-control" required>
@@ -232,17 +234,65 @@
                                 <label for="phone" class="form-label">Phone Number:</label>
                                 <input type="tel" id="phone" name="phone" class="form-control" required>
                             </div>
+
                             <div class="mb-3">
-                                <label for="contact-method" class="form-label">Preferred Contact Method:</label>
-                                <div id="contact-method">
-                                    <input type="checkbox" id="contact-phone" name="contact-method" value="phone">
-                                    <label for="contact-phone">Phone</label>
-                                    <input type="checkbox" id="contact-email" name="contact-method" value="email">
-                                    <label for="contact-email">Email</label>
-                                    <input type="checkbox" id="contact-text" name="contact-method" value="text">
-                                    <label for="contact-text">Text Message</label>
+                                <label>Which services are you interested in? (Check all that apply)</label>
+                                <div>
+                                    <input type="checkbox" id="suiteRental" name="services" value="Suite Rental">
+                                    <label for="suiteRental">Suite Rental</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="estheticianServices" name="services"
+                                           value="Esthetician Services">
+                                    <label for="estheticianServices">Esthetician Services</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="businessConsultation" name="services"
+                                           value="Business Consultation">
+                                    <label for="businessConsultation">Business Consultation</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="otherServices" name="services" value="Other">
+                                    <label for="otherServices">Other</label>
                                 </div>
                             </div>
+
+                            <div class="mb-3">
+                                <label>Preferred Contact Method (Check all that apply)</label>
+                                <div>
+                                    <input type="checkbox" id="contactEmail" name="contactMethod" value="Email">
+                                    <label for="contactEmail">Email</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="contactPhone" name="contactMethod" value="Phone">
+                                    <label for="contactPhone">Phone</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="contactText" name="contactMethod" value="Text">
+                                    <label for="contactText">Text message (rates may apply)</label>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label>How did you hear about us? (Check all that apply)</label>
+                                <div>
+                                    <input type="checkbox" id="socialMedia" name="hearAboutUs" value="Social Media">
+                                    <label for="socialMedia">Social Media</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="friendFamily" name="hearAboutUs" value="Friend/Family">
+                                    <label for="friendFamily">Friend/Family</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="online" name="hearAboutUs" value="Online">
+                                    <label for="online">Online</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="otherHearAboutUs" name="hearAboutUs" value="Other">
+                                    <label for="otherHearAboutUs">Other</label>
+                                </div>
+                            </div>
+
                             <div class="mb-3">
                                 <label for="message" class="form-label">Message:</label>
                                 <textarea id="message" name="message" class="form-control" rows="4" required></textarea>

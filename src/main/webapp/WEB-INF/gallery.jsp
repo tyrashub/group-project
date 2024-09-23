@@ -35,75 +35,139 @@
 </header>
 <main class="container">
     <!-- Gallery Section -->
-<div class="card shadow mb-3" style="background-color: white;">
-    <h1 style="font-size: xxx-large; color: #304e45;"><strong>Our Gallery</strong></h1>
-    <div class="card-body">
+    <h1 class="mt-3" style="font-size: xxx-large; color: #304e45;"><strong>Our Gallery</strong></h1>
+    <div class="card shadow mb-3">
         <div class="card-body">
-            <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div class="card-body">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                                aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                                aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+                                aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"
+                                aria-label="Slide 10"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10"
+                                aria-label="Slide 11"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11"
+                                aria-label="Slide 12"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12"
+                                aria-label="Slide 13"></button>
+                    </div>
+                    <div class="carousel-inner hide-overflow">
+                        <div class="carousel-item active">
+                            <img src="/assets/building.jpg" class="carousel-img d-block w-100" alt="Gallery IMG">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/gallery2.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/gallery10.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/gallery4.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/gallery3.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/gallery6.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/gallery7.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/gallery5.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/gallery1.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/gallery8.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/gallery9.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/gallery11.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="/assets/building.jpg" class="carousel-img d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/assets/now-leasing.jpg" class="carousel-img d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/assets/sipping-tea.jpg" class="carousel-img d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
 
-            <h4 class="mt-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aliquid aspernatur at autem ducimus error fugiat hic id laudantium natus, nihil odit perferendis possimus quasi quo repudiandae tempore unde!</h4>
+                <h4 class="mt-3"> Step into a beautifully designed workspace that blends elegance and functionality,
+                    offering the perfect serene environment for professionals to grow their businesses. Our
+                    suites and shared spaces are thoughtfully crafted with modern amenities, ensuring comfort for both you and your
+                    clients. Each space is renovated, well-lit, spacious, and ready to be customized to reflect your personal
+                    style!
+                    <br>
+                    Whether you're looking for a private suite or a booth in our open floor space, our location provides a professional
+                    and luxurious setting that will impress your clients and elevate your brand. Browse through our gallery to
+                    get a feel for the inviting atmosphere that awaits you!
+                    </h4>
+                <br>
+                <br>
+                <h6><strong>Visit our <a href="/careers">career</a> page to schedule a tour and learn more about how to get started!</strong></h6>
+            </div>
         </div>
     </div>
-</div>
-<%--    <!-- Testimonials Section -->--%>
-<%--<div class="card shadow mb-3">--%>
-<%--    <div class="card-body">--%>
-<%--        <div class="card-body">--%>
-<%--            <h2 style="font-size: xxx-large; color: #304e45;"><strong>Client Testimonials</strong></h2>--%>
+    <%--    <!-- Testimonials Section -->--%>
+    <%--<div class="card shadow mb-3">--%>
+    <%--    <div class="card-body">--%>
+    <%--        <div class="card-body">--%>
+    <%--            <h2 style="font-size: xxx-large; color: #304e45;"><strong>Client Testimonials</strong></h2>--%>
 
-<%--            <div class="card">--%>
-<%--                <div class="card-body">--%>
-<%--                    <img src="/" alt="Img 1">--%>
-<%--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>--%>
-<%--                </div>--%>
-<%--            </div>--%>
-<%--            <div class="card">--%>
-<%--                <div class="card-body">--%>
-<%--                    <img src="/" alt="Img 2">--%>
-<%--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>--%>
-<%--                </div>--%>
-<%--            </div>--%>
-<%--            <div class="card">--%>
-<%--                <div class="card-body">--%>
-<%--                    <img src="/" alt="Img 3">--%>
-<%--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>--%>
-<%--                </div>--%>
-<%--            </div>--%>
-<%--            <div class="card">--%>
-<%--                <div class="card-body">--%>
-<%--                    <img src="/" alt="Img 4">--%>
-<%--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>--%>
-<%--                </div>--%>
-<%--            </div>--%>
+    <%--            <div class="card">--%>
+    <%--                <div class="card-body">--%>
+    <%--                    <img src="/" alt="Img 1">--%>
+    <%--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>--%>
+    <%--                </div>--%>
+    <%--            </div>--%>
+    <%--            <div class="card">--%>
+    <%--                <div class="card-body">--%>
+    <%--                    <img src="/" alt="Img 2">--%>
+    <%--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>--%>
+    <%--                </div>--%>
+    <%--            </div>--%>
+    <%--            <div class="card">--%>
+    <%--                <div class="card-body">--%>
+    <%--                    <img src="/" alt="Img 3">--%>
+    <%--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>--%>
+    <%--                </div>--%>
+    <%--            </div>--%>
+    <%--            <div class="card">--%>
+    <%--                <div class="card-body">--%>
+    <%--                    <img src="/" alt="Img 4">--%>
+    <%--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam amet assumenda consectetur culpa cupiditate deserunt dolore dolorem, doloribus error excepturi illo minus nostrum pariatur quae quia soluta, tempore?</p>--%>
+    <%--                </div>--%>
+    <%--            </div>--%>
 
-<%--        </div>--%>
-<%--    </div>--%>
-<%--</div>--%>
+    <%--        </div>--%>
+    <%--    </div>--%>
+    <%--</div>--%>
 </main>
 <!-- Footer Section -->
 <div class="d-flex justify-content-end mb-3 px-3">

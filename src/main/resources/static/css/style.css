@@ -36,10 +36,21 @@
 
 }
 .carousel-img {
-    max-height: 600px;
-    object-fit: fill;
+    max-width: none;
+    width: auto;
+    height: auto;
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hide-overflow {
+    overflow: hidden;
+    min-height: 800px;
     border-radius: 10px;
-    width: 100%;
+    display: flex;
+    align-items: center;
 }
 .building-img {
     max-height: 700px;
@@ -57,7 +68,7 @@
 
 .services-img {
     width: 100%;
-    height: 350px;
+    height: 380px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -183,4 +194,11 @@ footer {
 
 .font-face {
     font-family: "Edwardian Script ITC";
+}
+
+.html {
+    background-image: url('/static/assets/beige-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }

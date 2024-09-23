@@ -111,12 +111,12 @@
                 <div class="card mb-3 shadow-sm w-100">
                     <div class="row g-0">
                         <div class="col-md-6 order-md-2">
-                            <img src="/assets/room.jpg" class="img-fluid" alt="Ideal For"
+                            <img src="/assets/now-leasing.jpg" class="img-fluid" alt="Ideal For"
                                  style="width: 100%; height: 350px; border-radius: 10px;">
                         </div>
                         <div class="col-md-6 order-md-1">
                             <div class="card-body">
-                                <h5 class="card-title"><strong>🏠 Ideal for:</strong></h5>
+                                <h5 class="card-title"><strong>🏠 Ideal Location For:</strong></h5>
                                 <ul>
                                     <li>Massage Therapists</li>
                                     <li>Nail Technicians</li>

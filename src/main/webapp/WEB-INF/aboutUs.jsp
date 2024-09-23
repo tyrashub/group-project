@@ -21,8 +21,8 @@
 <!-- Navigation and Logo Section -->
 <header>
     <img src="/assets/reg-logo.jpg" alt="Description" style="max-height: 250px;"
-         class="mx-auto d-block center-image reg-logo img-fluid mb-2">
-    <nav class="navbar navbar-expand-lg text-center bg-dark mb-4">
+         class="mx-auto d-block center-image reg-logo img-fluid">
+    <nav class="navbar navbar-expand-lg text-center bg-dark p-3 text-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -44,19 +44,17 @@
 </header>
 <main class="container">
     <!-- Mission Section -->
-        <section id="mission" class="mb-5 d-flex">
+        <section id="mission" class="mb-2 d-flex">
             <div class="row">
                 <div class="">
                     <h1 class="text-center font-face">Our Mission</h1>
-                    <p>We are delighted to introduce you to The Serene Scene Esty Lounge, an exceptional destination for
+                    <h5>We are delighted to introduce you to The Serene Scene Esty Lounge, an exceptional destination for
                         luxury skincare, massage, lash services, and cosmetic injections in Duncanville, TX.
-
-                        Our Dedicated Mission:
                         At The Serene Scene, our mission is to create a luxurious and supportive environment where
                         estheticians can thrive and innovate. We are dedicated to fostering a community of excellence by
                         providing exceptional space, resources, and support. Our aim is to help our tenants grow their
                         businesses and achieve their professional goals while enhancing the esthetician experience through
-                        outstanding service, collaboration, and a shared passion for beauty and well-being.</p>
+                        outstanding service, collaboration, and a shared passion for beauty and well-being.</h5>
                 </div>
             </div>
         </section>
@@ -94,7 +92,7 @@
                             Waxed
                             Off. With many more exciting ventures ahead, Toni’s journey is just beginning!
                         </h4>
-                        <div class="social-icons d-flex justify-content-center footer text-center container">
+                        <div class="social-icons d-flex justify-content-start">
                             <a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook-f"></i></a>
                             <a href="https://twitter.com/yourpage" target="_blank"><i class="fab fa-twitter"></i></a>
                             <a href="https://www.instagram.com/yourpage" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -109,12 +107,12 @@
         <!-- Akeyia Section -->
         <section  class="card">
             <div class="card-body">
-                <div class="row text-lg-end">
-                    <div class="col-md-4 order-md-2 p-5">
+                <div class="row text-lg-start">
+                    <div class="col-md-4 p-5">
                         <img src="/assets/Akeyia.jpeg" alt="Akeyia Chukes" class="img-fluid founders-img"
                              style="border-radius: 10px;">
                     </div>
-                    <div class="col-md-8 order-md-1 ">
+                    <div class="col-md-8">
                         <br>
                         <br>
                         <h2 class="dancing-script">Akeyia Chukes</h2>
@@ -134,7 +132,7 @@
                             environment where both she and her tenants can achieve
                             personal and professional growth.
                         </h4>
-                        <div class="social-icons d-flex justify-content-center footer text-center container">
+                        <div class="social-icons d-flex justify-content-start">
                             <a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook-f"></i></a>
                             <a href="https://twitter.com/yourpage" target="_blank"><i class="fab fa-twitter"></i></a>
                             <a href="https://www.instagram.com/yourpage" target="_blank"><i class="fab fa-instagram"></i></a>

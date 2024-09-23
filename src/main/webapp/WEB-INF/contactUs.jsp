@@ -198,7 +198,7 @@
                 <h1 style="color: #304e45;"><strong>Location & Salon Hours</strong></h1>
                 <h4><strong>The Serene Scene Esty Lounge</strong></h4>
                 <h5><strong>118 N Main, Duncanville, Texas 75116</strong></h5>
-                <p><strong>(Email Address)</strong></p>
+                <p><strong><a href="mailto:thestudioconceptdal@gmail.com">thestudioconceptdal@gmail.com</a></strong></p>
                 <p><strong>(Phone Number)</strong></p>
                 <p>Monday-Friday: 9am - 5pm</p>
                 <p>Saturday: 9am - 5pm</p>
