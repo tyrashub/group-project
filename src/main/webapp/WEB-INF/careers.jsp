@@ -68,7 +68,7 @@
     </div>
     <div class="row mt-4">
         <div class="col-md-12 text-center">
-            <h3><strong>📞 Contact Us Today to Schedule a Tour and Secure Your Space!</strong></h3>
+            <h3><strong>📞 <a href="/contact" class="text-dark">Contact</a> Us Today to Schedule a Tour and Secure Your Space!</strong></h3>
             <h6><strong>Requirements:</strong> Must be licensed and have proof of insurance. Deposit and first
                 month's
                 rental fee due upon move-in.</h6>

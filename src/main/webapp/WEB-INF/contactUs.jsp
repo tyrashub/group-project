@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/css/bootstrap (minty).css"/>
     <link rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@24.5.0/build/css/intlTelInput.css">
 </head>
 <body>
 <!-- Navigation and Logo Section -->
@@ -65,13 +66,16 @@
                                 <label for="name" class="form-label text-white">Name:</label>
                                 <input type="text" id="name" name="name" class="form-control" required>
                             </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label text-white">Email:</label>
-                                <input type="email" id="email" name="email" class="form-control" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="phone" class="form-label text-white">Phone Number:</label>
-                                <input type="tel" id="phone" name="phone" class="form-control" required>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="email" class="form-label text-white">Email:</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                                <div class="col-auto"><label for="phoneNumber" class="form-label text-white d-block">Phone
+                                    Number:</label>
+                                    <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control" required>
+                                </div>
+
                             </div>
 
                             <div class="mb-3">
@@ -108,7 +112,7 @@
                                 </div>
                                 <div>
                                     <input type="checkbox" id="contactText" name="contactMethod" value="Text">
-                                    <label class="text-white" for="contactText">Text message (rates may apply)</label>
+                                    <label class="text-white" for="contactText">Text message</label>
                                 </div>
                             </div>
 
@@ -199,7 +203,7 @@
                 <h4 class="fst-italic"><strong>The Serene Scene Esty Lounge</strong></h4>
                 <h5 class="fst-italic"><strong>118 N Main, Duncanville, Texas 75116</strong></h5>
                 <h6><a href="mailto:thestudioconceptdal@gmail.com" class="text-white">thestudioconceptdal@gmail.com</a></h6>
-                <p class="text-white"><strong>(Phone Number)</strong></p>
+                <p><strong>(469)-513-2269</strong></p>
                 <p>Monday-Friday: 9am - 5pm</p>
                 <p>Saturday: 9am - 5pm</p>
                 <p>Sunday: 9am - 5pm</p>
@@ -261,6 +265,19 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@24.5.0/build/js/intlTelInput.min.js"></script>
+<script>
+    const input = document.querySelector("#phoneNumber");
+    const iti = window.intlTelInput(input, {
+        utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@24.5.0/build/js/utils.js",
+        allowDropdown: false,
+        initialCountry: "us",
+    });
+    input.addEventListener("input", ()=> {
+        const number = iti.getNumber();
+        console.log(number);
+    })
+</script>
 </body>
 </html>
 

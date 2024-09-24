@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/css/bootstrap (minty).css"/>
     <link rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@24.5.0/build/css/intlTelInput.css">
 </head>
 <body>
 <!-- Navigation and Logo Section -->
@@ -46,22 +47,25 @@
 <main class="container">
     <!-- Landing Image and Hero Section -->
     <section id="banner" class="mt-3">
-        <div class="image-container">
-            <img src="/assets/building.jpg" alt="Building" class="building-img img-fluid shadow" style="border-radius: 10px;">
+        <div class="image-container hide-overflow">
+            <img src="/assets/building2.jpg" alt="Building" class="building-img img-fluid shadow"
+                 style="border-radius: 10px;">
             <div class="overlay-text">
                 <h3 class="text-white fst-italic"><strong>Empowering Entrepreneurs, One Space at a Time.</strong></h3>
                 <p>Creating an inspiring and supportive environment for estheticians and service providers.</p>
-                <a href="/contact" class="btn animated-btn" style="background-color: #a2c2a2;">Click for more!</a>
+                <a href="/careers" class="btn animated-btn" style="background-color: #a2c2a2;">Click for more!</a>
             </div>
         </div>
     </section>
     <!-- Mission Section -->
     <section id="mission" class="card shadow d-flex">
         <div class="row">
-            <div class="col-4"><img src="/assets/reg-logo.jpg" alt="Logo" class="img-fluid" style="border: 1px solid #304e45;"></div>
+            <div class="col-4"><img src="/assets/reg-logo.jpg" alt="Logo" class="img-fluid"
+                                    style="border: 1px solid #304e45;"></div>
             <div class="col-8">
                 <h2 class="fst-italic text-white"><strong>The Serene Scene Mission</strong></h2>
-                <h5 style="color:  #3e605c;"><strong>We are delighted to introduce you to The Serene Scene Esty Lounge, an exceptional
+                <h5 style="color:  #3e605c;"><strong>We are delighted to introduce you to The Serene Scene Esty Lounge,
+                    an exceptional
                     destination for
                     luxury skincare, massage, lash services, and cosmetic injections in Duncanville, TX.</strong>
                     <br>
@@ -158,11 +162,11 @@
                         <li style="color: #3e605c;"><strong>Teeth Whitening</strong></li>
                         <li style="color: #3e605c;"><strong>Other Spa Professionals</strong></li>
                     </ul>
-<%--                    <div style="text-align: center; margin-top: 10px;">--%>
-<%--                        <button type="button" class="btn btn-lg btn-primary py-1">--%>
-<%--                            <a href="/services" class="text-white" style="text-decoration: none;">View more</a>--%>
-<%--                        </button>--%>
-<%--                    </div>--%>
+                    <%--                    <div style="text-align: center; margin-top: 10px;">--%>
+                    <%--                        <button type="button" class="btn btn-lg btn-primary py-1">--%>
+                    <%--                            <a href="/services" class="text-white" style="text-decoration: none;">View more</a>--%>
+                    <%--                        </button>--%>
+                    <%--                    </div>--%>
                 </div>
                 <div class="col-lg-5">
                     <img src="/assets/service.png" alt="Service Description" class="services-img img-fluid mb-n3">
@@ -197,8 +201,9 @@
                 <h1 class="fst-italic" style="color: #304e45;"><strong>Location & Salon Hours</strong></h1>
                 <h4 class="fst-italic"><strong>The Serene Scene Esty Lounge</strong></h4>
                 <h5 class="fst-italic"><strong>118 N Main, Duncanville, Texas 75116</strong></h5>
-                <h6><a href="mailto:thestudioconceptdal@gmail.com" class="text-white">thestudioconceptdal@gmail.com</a></h6>
-                <h6 class="text-white"><strong>(Phone Number)</strong></h6>
+                <h6><a href="mailto:thestudioconceptdal@gmail.com" class="text-white">thestudioconceptdal@gmail.com</a>
+                </h6>
+                <h6><strong>(469)-513-2269</strong></h6>
                 <p>Monday-Friday: 9am - 5pm</p>
                 <p>Saturday: 9am - 5pm</p>
                 <p>Sunday: 9am - 5pm</p>
@@ -207,7 +212,7 @@
     </section>
     <!-- Contact Form Section -->
     <section id="contact">
-        <div class="card shadow mb-3" >
+        <div class="card shadow mb-3">
             <div class="card-body">
                 <h1 class="fst-italic" style="font-size: xxx-large; color: #304e45;"><strong>Contact Us</strong></h1>
                 <div class="row">
@@ -216,27 +221,32 @@
                             please fill out this form and we will get back to you promptly!</h3>
                         <br>
                         <h3 class="text-justify fst-italic">For faster response, email us anytime at
-                            <a href="mailto:thestudioconceptdal@gmail.com" class="fst-italic text-white">thestudioconceptdal@gmail.com</a></h3>
+                            <a href="mailto:thestudioconceptdal@gmail.com" class="fst-italic text-white">thestudioconceptdal@gmail.com</a>
+                        </h3>
                         <img src="/assets/Logo2.png" alt="logo" class="reg-logo img-fluid"
                              style="max-height: 550px;">
                     </div>
                     <div class="col-md-6">
-                        <form action="/submitContact" method="post"  style="background-color: #a2c2a2; padding: 30px; border-radius: 10px;">
+                        <form action="/submitContact" method="post"
+                              style="background-color: #a2c2a2; padding: 30px; border-radius: 10px;">
                             <div class="mb-3">
                                 <label for="name" class="form-label text-white">Name:</label>
                                 <input type="text" id="name" name="name" class="form-control" required>
                             </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label text-white">Email:</label>
-                                <input type="email" id="email" name="email" class="form-control" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="phone" class="form-label text-white">Phone Number:</label>
-                                <input type="tel" id="phone" name="phone" class="form-control" required>
-                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="email" class="form-label text-white">Email:</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                                <div class="col-auto"><label for="phoneNumber" class="form-label text-white d-block">Phone
+                                    Number:</label>
+                                    <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control" required>
+                                </div>
 
+                            </div>
                             <div class="mb-3">
-                                <label class="text-white">Which services are you interested in? (Check all that apply)</label>
+                                <label class="text-white">Which services are you interested in? (Check all that
+                                    apply)</label>
                                 <div>
                                     <input type="checkbox" id="suiteRental" name="services" value="Suite Rental">
                                     <label class="text-white" for="suiteRental">Suite Rental</label>
@@ -269,7 +279,7 @@
                                 </div>
                                 <div>
                                     <input type="checkbox" id="contactText" name="contactMethod" value="Text">
-                                    <label class="text-white" for="contactText">Text message (rates may apply)</label>
+                                    <label class="text-white" for="contactText">Text message</label>
                                 </div>
                             </div>
 
@@ -332,7 +342,8 @@
                                 style="color: #304e45; font-size: larger">Home</a></li>
         <li class="nav-item"><a href="/aboutUs" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">About</a></li>
-        <li class="nav-item"><a href="/services" class="text-white nav-link px-2 " style="color: #304e45; font-size:larger">Services</a>
+        <li class="nav-item"><a href="/services" class="text-white nav-link px-2 "
+                                style="color: #304e45; font-size:larger">Services</a>
         </li>
         <li class="nav-item"><a href="/careers" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Careers</a></li>
@@ -359,6 +370,19 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@24.5.0/build/js/intlTelInput.min.js"></script>
+<script>
+    const input = document.querySelector("#phoneNumber");
+    const iti = window.intlTelInput(input, {
+        utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@24.5.0/build/js/utils.js",
+        allowDropdown: false,
+        initialCountry: "us",
+    });
+    input.addEventListener("input", ()=> {
+        const number = iti.getNumber();
+        console.log(number);
+    })
+</script>
 </body>
 </html>
 

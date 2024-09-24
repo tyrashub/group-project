@@ -55,8 +55,7 @@
     align-items: center;
 }
 .building-img {
-    max-height: 700px;
-    width: inherit;
+    width: 100%;
 }
 
 .center-image {
