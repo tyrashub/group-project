@@ -21,9 +21,9 @@
 <body>
 <!-- Navigation and Logo Section -->
 <header>
-    <img src="/assets/reg-logo.jpg" alt="Description" style="max-height: 250px;"
+    <img src="/assets/Logo2.png" alt="Description" style="max-height: 220px;"
          class="mx-auto d-block center-image reg-logo img-fluid">
-    <nav class="navbar navbar-expand-lg text-center bg-dark p-3 text-light">
+    <nav class="navbar navbar-expand-lg text-center p-3 text-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -46,7 +46,6 @@
 <main class="container">
     <!-- Services Section -->
     <section class="mt-3">
-        <div class="mb-3" style="background-color: white;">
             <h1 style="font-size: xxx-large; color: #304e45;"><strong>Services</strong></h1>
             <!-- Relaxing Facials Card -->
             <div class="card mb-3">
@@ -58,7 +57,7 @@
                         <div class="card-body">
                             <h3 class="card-title">Relaxing Facials</h3>
                             <h6 class="card-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Metus cras sociosqu maximus justo scelerisque velit. Velit augue ad praesent massa iaculis. Est duis duis habitant viverra lacinia turpis varius mus. Neque id senectus erat torquent ridiculus ipsum. Magna molestie ligula, blandit mattis malesuada massa nec.</h6>
-                            <p class="card-text"><small><strong>Time: Varies Price: $$</strong></small></p>
+                            <p class="card-text"><small><strong>Time: Varies | Price: $$</strong></small></p>
                             <button type="submit" class="btn btn-primary text-white">
                                 <a href="https://linktr.ee/SereneScene" target="_blank" class="text-white text-decoration-none">
                                     Book Service
@@ -80,7 +79,7 @@
                         <div class="card-body">
                             <h3 class="card-title">Specialty Waxing</h3>
                             <h6 class="card-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Metus cras sociosqu maximus justo scelerisque velit. Velit augue ad praesent massa iaculis. Est duis duis habitant viverra lacinia turpis varius mus. Neque id senectus erat torquent ridiculus ipsum. Magna molestie ligula, blandit mattis malesuada massa nec.</h6>
-                            <p class="card-text"><small><strong>Time: Varies Price: $$</strong></small></p>
+                            <p class="card-text"><small><strong>Time: Varies | Price: $$</strong></small></p>
                             <button type="submit" class="btn btn-primary text-white">
                                 <a href="https://linktr.ee/SereneScene" target="_blank" class="text-white text-decoration-none">
                                     Book Service
@@ -102,7 +101,7 @@
                         <div class="card-body">
                             <h3 class="card-title">Eyebrow Tinting</h3>
                             <h6 class="card-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Metus cras sociosqu maximus justo scelerisque velit. Velit augue ad praesent massa iaculis. Est duis duis habitant viverra lacinia turpis varius mus. Neque id senectus erat torquent ridiculus ipsum. Magna molestie ligula, blandit mattis malesuada massa nec.</h6>
-                            <p class="card-text"><small><strong>Time: Varies Price: $$</strong></small></p>
+                            <p class="card-text"><small><strong>Time: Varies | Price: $$</strong></small></p>
                             <button type="submit" class="btn btn-primary text-white">
                                 <a href="https://linktr.ee/SereneScene" target="_blank" class="text-white text-decoration-none">
                                     Book Service
@@ -124,7 +123,7 @@
                         <div class="card-body">
                             <h3 class="card-title">Lash Lifting</h3>
                             <h6 class="card-text">Lorem ipsum odor amet, consectetuer adipiscing elit. Metus cras sociosqu maximus justo scelerisque velit. Velit augue ad praesent massa iaculis. Est duis duis habitant viverra lacinia turpis varius mus. Neque id senectus erat torquent ridiculus ipsum. Magna molestie ligula, blandit mattis malesuada massa nec.</h6>
-                            <p class="card-text"><small><strong>Time: Varies Price: $$</strong></small></p>
+                            <p class="card-text"><small><strong>Time: Varies | Price: $$</strong></small></p>
                             <button type="submit" class="btn btn-primary text-white">
                                 <a href="https://linktr.ee/SereneScene" target="_blank" class="text-white text-decoration-none">
                                     Book Service
@@ -135,7 +134,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 </main>
     <!-- Footer -->
@@ -161,17 +159,17 @@
     </div>
     <footer class="py-3 footer">
         <ul class="nav d-flex justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="/landing" class="nav-link px-2 "
+            <li class="nav-item"><a href="/landing" class="text-white nav-link px-2 "
                                     style="color: #304e45; font-size: larger">Home</a></li>
-            <li class="nav-item"><a href="/aboutUs" class="nav-link px-2 "
+            <li class="nav-item"><a href="/aboutUs" class="text-white nav-link px-2 "
                                     style="color: #304e45; font-size: larger">About</a></li>
-            <li class="nav-item"><a href="/services" class="nav-link px-2 " style="color: #304e45; font-size:larger">Services</a>
+            <li class="nav-item"><a href="/services" class="text-white nav-link px-2 " style="color: #304e45; font-size:larger">Services</a>
             </li>
-            <li class="nav-item"><a href="/careers" class="nav-link px-2 "
+            <li class="nav-item"><a href="/careers" class="text-white nav-link px-2 "
                                     style="color: #304e45; font-size: larger">Careers</a></li>
-            <li class="nav-item"><a href="/gallery" class="nav-link px-2 "
+            <li class="nav-item"><a href="/gallery" class="text-white nav-link px-2 "
                                     style="color: #304e45; font-size: larger">Gallery</a></li>
-            <li class="nav-item"><a href="/contact" class="nav-link px-2 "
+            <li class="nav-item"><a href="/contact" class="text-white nav-link px-2 "
                                     style="color: #304e45; font-size: larger">Contact</a></li>
         </ul>
         <div class="d-flex justify-content-center">

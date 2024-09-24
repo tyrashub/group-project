@@ -9,7 +9,7 @@
 <%@ page isErrorPage="true" %>
 
 <!DOCTYPE html>
-<html lang="en" class="html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,9 +21,9 @@
 <body>
 <!-- Navigation and Logo Section -->
 <header>
-    <img src="/assets/reg-logo.jpg" alt="Description" style="max-height: 250px;"
+    <img src="/assets/Logo2.png" alt="Description" style="max-height: 220px;"
          class="mx-auto d-block center-image reg-logo img-fluid">
-    <nav class="navbar navbar-expand-lg text-center bg-dark p-3 text-light">
+    <nav class="navbar navbar-expand-lg text-center p-3 text-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -47,26 +47,26 @@
     <!-- Landing Image and Hero Section -->
     <section id="banner" class="mt-3">
         <div class="image-container">
-            <img src="/assets/building.jpg" alt="Building" class="building-img img-fluid" style="border-radius: 10px;">
+            <img src="/assets/building.jpg" alt="Building" class="building-img img-fluid shadow" style="border-radius: 10px;">
             <div class="overlay-text">
                 <h3 class="text-white fst-italic"><strong>Empowering Entrepreneurs, One Space at a Time.</strong></h3>
                 <p>Creating an inspiring and supportive environment for estheticians and service providers.</p>
-                <a href="/contact" class="btn btn-primary animated-btn">Click for more!</a>
+                <a href="/contact" class="btn animated-btn" style="background-color: #a2c2a2;">Click for more!</a>
             </div>
         </div>
     </section>
     <!-- Mission Section -->
-    <section id="mission" class="card d-flex">
+    <section id="mission" class="card shadow d-flex">
         <div class="row">
-            <div class="col-4"><img src="/assets/reg-logo.jpg" alt="Logo" class="img-fluid"></div>
+            <div class="col-4"><img src="/assets/reg-logo.jpg" alt="Logo" class="img-fluid" style="border: 1px solid #304e45;"></div>
             <div class="col-8">
-                <h2 class="fst-italic" style="color: #304e45;"><strong>The Serene Scene Mission</strong></h2>
-                <h5><strong>We are delighted to introduce you to The Serene Scene Esty Lounge, an exceptional
+                <h2 class="fst-italic text-white"><strong>The Serene Scene Mission</strong></h2>
+                <h5 style="color:  #3e605c;"><strong>We are delighted to introduce you to The Serene Scene Esty Lounge, an exceptional
                     destination for
                     luxury skincare, massage, lash services, and cosmetic injections in Duncanville, TX.</strong>
                     <br>
                     <br>
-                    <strong>Our Dedicated Mission:</strong>
+                    <strong class="fst-italic">Our Dedicated Mission:</strong>
                     <br>
                     At The Serene Scene, our mission is to create a luxurious and supportive environment where
                     estheticians can thrive and innovate. We are dedicated to fostering a community of excellence by
@@ -77,9 +77,9 @@
         </div>
     </section>
     <!-- Founders Section -->
-    <section id="founders" class="card" style="background-color: white;">
+    <section id="founders" class="card shadow" style="background-color: #eeded0;">
         <div class="card-body">
-            <h1 class="mb-4" style="color: #304e45;"><strong>Founders</strong></h1>
+            <h1 class="mb-4" style="color:  #3e605c;"><strong>Founders</strong></h1>
             <div class="row text-lg-start mb-4">
                 <div class="col-md-4">
                     <img src="/assets/Toni.jpg" alt="Toni Williams" class="img-fluid founders-img"
@@ -88,7 +88,7 @@
                 <div class="col-md-8">
                     <br>
                     <br>
-                    <h2><strong>Toni Williams</strong></h2>
+                    <h2 class="fst-italic" style="color: #3e605c;"><strong>Toni Williams</strong></h2>
                     <h4>
                         We’re thrilled to introduce Toni Williams, the visionary owner of Serene Scene Esty Lounge! Born
                         and
@@ -120,7 +120,7 @@
                 <div class="col-md-8 order-md-1 ">
                     <br>
                     <br>
-                    <h2><strong>Akeyia Chukes</strong></h2>
+                    <h2 class="fst-italic" style="color: #3e605c;"><strong>Akeyia Chukes</strong></h2>
                     <h4 class="text-justify">
                         Akeyia Chukes, 28, is a dedicated and skilled licensed esthetician with three years of
                         experience, driven by a deep passion for helping individuals feel their best.
@@ -141,22 +141,22 @@
         </div>
     </section>
     <!-- Services Section -->
-    <section id="services" class="card mb-3">
+    <section id="services" class="card shadow mb-3">
         <div class="card-body">
-            <h1 class="mb-4" style="color: #304e45;"><strong>Our Service Professionals</strong></h1>
+            <h1 class="mb-4" style="color:  #3e605c;"><strong>Our Service Professionals</strong></h1>
             <div class="row">
                 <div class="col-lg-2">
                     <ul style="font-size: 19px;">
-                        <li><strong>Estheticians</strong></li>
-                        <li><strong>Nail Artists</strong></li>
-                        <li><strong>Makeup Artists</strong></li>
-                        <li><strong>Permanent MUA</strong></li>
-                        <li><strong>Lash Technicians</strong></li>
-                        <li><strong>Facial Specialists</strong></li>
-                        <li><strong>Wax Technicians</strong></li>
-                        <li><strong>Lip Filler Techs</strong></li>
-                        <li><strong>Teeth Whitening</strong></li>
-                        <li><strong>Other Spa Professionals</strong></li>
+                        <li style="color: #3e605c;"><strong>Estheticians</strong></li>
+                        <li style="color: #3e605c;"><strong>Nail Artists</strong></li>
+                        <li style="color: #3e605c;"><strong>Makeup Artists</strong></li>
+                        <li style="color: #3e605c;"><strong>Permanent MUA</strong></li>
+                        <li style="color: #3e605c;"><strong>Lash Technicians</strong></li>
+                        <li style="color: #3e605c;"><strong>Facial Specialists</strong></li>
+                        <li style="color: #3e605c;"><strong>Wax Technicians</strong></li>
+                        <li style="color: #3e605c;"><strong>Lip Filler Techs</strong></li>
+                        <li style="color: #3e605c;"><strong>Teeth Whitening</strong></li>
+                        <li style="color: #3e605c;"><strong>Other Spa Professionals</strong></li>
                     </ul>
 <%--                    <div style="text-align: center; margin-top: 10px;">--%>
 <%--                        <button type="button" class="btn btn-lg btn-primary py-1">--%>
@@ -174,7 +174,7 @@
         </div>
     </section>
     <!-- Location and Hours Section -->
-    <section id="location" class="card d-flex" style="background-color: white;">
+    <section id="location" class="card d-flex shadow" style="background-color: #eeded0;">
         <div class="card-body">
             <div id="map" style="height: 400px; width: 100%;">
                 <script>
@@ -195,10 +195,10 @@
             </div>
             <section class="text-center">
                 <h1 style="color: #304e45;"><strong>Location & Salon Hours</strong></h1>
-                <h4><strong>The Serene Scene Esty Lounge</strong></h4>
-                <h5><strong>118 N Main, Duncanville, Texas 75116</strong></h5>
-                <p><a href="mailto:thestudioconceptdal@gmail.com">thestudioconceptdal@gmail.com</a></p>
-                <p><strong>(Phone Number)</strong></p>
+                <h4 class="fst-italic"><strong>The Serene Scene Esty Lounge</strong></h4>
+                <h5 class="fst-italic"><strong>118 N Main, Duncanville, Texas 75116</strong></h5>
+                <h6><a href="mailto:thestudioconceptdal@gmail.com" class="text-white">thestudioconceptdal@gmail.com</a></h6>
+                <h6 class="text-white"><strong>(Phone Number)</strong></h6>
                 <p>Monday-Friday: 9am - 5pm</p>
                 <p>Saturday: 9am - 5pm</p>
                 <p>Sunday: 9am - 5pm</p>
@@ -207,97 +207,97 @@
     </section>
     <!-- Contact Form Section -->
     <section id="contact">
-        <div class="card shadow mb-3" style="background-color: white;">
+        <div class="card shadow mb-3" >
             <div class="card-body">
                 <h1 style="font-size: xxx-large; color: #304e45;"><strong>Contact Us</strong></h1>
                 <div class="row">
                     <div class="col-md-6 mt-3">
-                        <h3 class="text-justify">If you are interested in becoming a Tenant and offering your services,
+                        <h3 class="text-justify ">If you are interested in becoming a Tenant and offering your services,
                             please fill out this form and we will get back to you promptly!</h3>
                         <br>
-                        <h3 class="text-justify">For faster response, email us anytime at
-                            <a href="mailto:thestudioconceptdal@gmail.com">thestudioconceptdal@gmail.com!</a></h3>
-                        <img src="/assets/reg-logo.jpg" alt="logo" class="reg-logo img-fluid"
+                        <h3 class="text-justify fst-italic">For faster response, email us anytime at
+                            <a href="mailto:thestudioconceptdal@gmail.com" class="fst-italic text-white">thestudioconceptdal@gmail.com</a></h3>
+                        <img src="/assets/Logo2.png" alt="logo" class="reg-logo img-fluid"
                              style="max-height: 550px;">
                     </div>
                     <div class="col-md-6">
-                        <form action="/submitContact" method="post"  style="background-color: #d4f5d4; padding: 30px; border-radius: 10px;">
+                        <form action="/submitContact" method="post"  style="background-color: #a2c2a2; padding: 30px; border-radius: 10px;">
                             <div class="mb-3">
-                                <label for="name" class="form-label">Name:</label>
+                                <label for="name" class="form-label text-white">Name:</label>
                                 <input type="text" id="name" name="name" class="form-control" required>
                             </div>
                             <div class="mb-3">
-                                <label for="email" class="form-label">Email:</label>
+                                <label for="email" class="form-label text-white">Email:</label>
                                 <input type="email" id="email" name="email" class="form-control" required>
                             </div>
                             <div class="mb-3">
-                                <label for="phone" class="form-label">Phone Number:</label>
+                                <label for="phone" class="form-label text-white">Phone Number:</label>
                                 <input type="tel" id="phone" name="phone" class="form-control" required>
                             </div>
 
                             <div class="mb-3">
-                                <label>Which services are you interested in? (Check all that apply)</label>
+                                <label class="text-white">Which services are you interested in? (Check all that apply)</label>
                                 <div>
                                     <input type="checkbox" id="suiteRental" name="services" value="Suite Rental">
-                                    <label for="suiteRental">Suite Rental</label>
+                                    <label class="text-white" for="suiteRental">Suite Rental</label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="estheticianServices" name="services"
                                            value="Esthetician Services">
-                                    <label for="estheticianServices">Esthetician Services</label>
+                                    <label class="text-white" for="estheticianServices">Esthetician Services</label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="businessConsultation" name="services"
                                            value="Business Consultation">
-                                    <label for="businessConsultation">Business Consultation</label>
+                                    <label class="text-white" for="businessConsultation">Business Consultation</label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="otherServices" name="services" value="Other">
-                                    <label for="otherServices">Other</label>
+                                    <label class="text-white" for="otherServices">Other</label>
                                 </div>
                             </div>
 
                             <div class="mb-3">
-                                <label>Preferred Contact Method (Check all that apply)</label>
+                                <label class="text-white">Preferred Contact Method (Check all that apply)</label>
                                 <div>
                                     <input type="checkbox" id="contactEmail" name="contactMethod" value="Email">
-                                    <label for="contactEmail">Email</label>
+                                    <label class="text-white" for="contactEmail">Email</label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="contactPhone" name="contactMethod" value="Phone">
-                                    <label for="contactPhone">Phone</label>
+                                    <label class="text-white" for="contactPhone">Phone</label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="contactText" name="contactMethod" value="Text">
-                                    <label for="contactText">Text message (rates may apply)</label>
+                                    <label class="text-white" for="contactText">Text message (rates may apply)</label>
                                 </div>
                             </div>
 
                             <div class="mb-3">
-                                <label>How did you hear about us? (Check all that apply)</label>
+                                <label class="text-white">How did you hear about us? (Check all that apply)</label>
                                 <div>
                                     <input type="checkbox" id="socialMedia" name="hearAboutUs" value="Social Media">
-                                    <label for="socialMedia">Social Media</label>
+                                    <label class="text-white" for="socialMedia">Social Media</label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="friendFamily" name="hearAboutUs" value="Friend/Family">
-                                    <label for="friendFamily">Friend/Family</label>
+                                    <label class="text-white" for="friendFamily">Friend/Family</label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="online" name="hearAboutUs" value="Online">
-                                    <label for="online">Online</label>
+                                    <label class="text-white" for="online">Online</label>
                                 </div>
                                 <div>
                                     <input type="checkbox" id="otherHearAboutUs" name="hearAboutUs" value="Other">
-                                    <label for="otherHearAboutUs">Other</label>
+                                    <label class="text-white" for="otherHearAboutUs">Other</label>
                                 </div>
                             </div>
 
                             <div class="mb-3">
-                                <label for="message" class="form-label">Message:</label>
+                                <label for="message" class="form-label text-white">Message:</label>
                                 <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary w-100">Send</button>
+                            <button type="submit" class="btn w-100">Send</button>
                         </form>
                     </div>
                 </div>
@@ -328,17 +328,17 @@
 </div>
 <footer class="py-3 footer">
     <ul class="nav d-flex justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="/landing" class="nav-link px-2 "
+        <li class="nav-item"><a href="/landing" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Home</a></li>
-        <li class="nav-item"><a href="/aboutUs" class="nav-link px-2 "
+        <li class="nav-item"><a href="/aboutUs" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">About</a></li>
-        <li class="nav-item"><a href="/services" class="nav-link px-2 " style="color: #304e45; font-size:larger">Services</a>
+        <li class="nav-item"><a href="/services" class="text-white nav-link px-2 " style="color: #304e45; font-size:larger">Services</a>
         </li>
-        <li class="nav-item"><a href="/careers" class="nav-link px-2 "
+        <li class="nav-item"><a href="/careers" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Careers</a></li>
-        <li class="nav-item"><a href="/gallery" class="nav-link px-2 "
+        <li class="nav-item"><a href="/gallery" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Gallery</a></li>
-        <li class="nav-item"><a href="/contact" class="nav-link px-2 "
+        <li class="nav-item"><a href="/contact" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Contact</a></li>
     </ul>
     <div class="d-flex justify-content-center">
@@ -353,7 +353,7 @@
         <a href="https://linktr.ee/yourpage" target="_blank"><i class="fa-solid fa-share-from-square"></i></a>
         <img src="/assets/pay-icons.png" class="d-flex justify-content-end" alt="Pay Icons">
     </div>
-    <p class="text-center mt-2" style="color: #304e45;">© 2024 The Serene Scene Esty Lounge. All
+    <p class="text-center mt-2" style="color: #3e605c;">© 2024 The Serene Scene Esty Lounge. All
         rights reserved.</p>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

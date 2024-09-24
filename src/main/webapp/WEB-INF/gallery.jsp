@@ -11,9 +11,9 @@
 <body>
 <!-- Navigation and Logo Section -->
 <header>
-    <img src="/assets/reg-logo.jpg" alt="Description" style="max-height: 250px;"
+    <img src="/assets/Logo2.png" alt="Description" style="max-height: 220px;"
          class="mx-auto d-block center-image reg-logo img-fluid">
-    <nav class="navbar navbar-expand-lg text-center bg-dark p-3 text-light">
+    <nav class="navbar navbar-expand-lg text-center p-3 text-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -35,8 +35,8 @@
 </header>
 <main class="container">
     <!-- Gallery Section -->
-    <h1 class="mt-3" style="font-size: xxx-large; color: #304e45;"><strong>Our Gallery</strong></h1>
-    <div class="card shadow mb-3">
+    <h1 class="mt-3" style="font-size: xxx-large; color: #3e605c;"><strong>Our Gallery</strong></h1>
+    <div class="card shadow mb-3" style="background-color: #eeded0;">
         <div class="card-body">
             <div class="card-body">
                 <div id="carouselExampleIndicators" class="carousel slide">
@@ -130,7 +130,7 @@
                     </h4>
                 <br>
                 <br>
-                <h6><strong>Visit our <a href="/careers">career</a> page to schedule a tour and learn more about how to get started!</strong></h6>
+                <h6 class="fst-italic"><strong>Visit our <a href="/careers">career</a> page to schedule a tour and learn more about how to get started!</strong></h6>
             </div>
         </div>
     </div>
@@ -192,17 +192,17 @@
 </div>
 <footer class="py-3 footer">
     <ul class="nav d-flex justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="/landing" class="nav-link px-2 "
+        <li class="nav-item"><a href="/landing" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Home</a></li>
-        <li class="nav-item"><a href="/aboutUs" class="nav-link px-2 "
+        <li class="nav-item"><a href="/aboutUs" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">About</a></li>
-        <li class="nav-item"><a href="/services" class="nav-link px-2 " style="color: #304e45; font-size:larger">Services</a>
+        <li class="nav-item"><a href="/services" class="text-white nav-link px-2 " style="color: #304e45; font-size:larger">Services</a>
         </li>
-        <li class="nav-item"><a href="/careers" class="nav-link px-2 "
+        <li class="nav-item"><a href="/careers" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Careers</a></li>
-        <li class="nav-item"><a href="/gallery" class="nav-link px-2 "
+        <li class="nav-item"><a href="/gallery" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Gallery</a></li>
-        <li class="nav-item"><a href="/contact" class="nav-link px-2 "
+        <li class="nav-item"><a href="/contact" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Contact</a></li>
     </ul>
     <div class="d-flex justify-content-center">

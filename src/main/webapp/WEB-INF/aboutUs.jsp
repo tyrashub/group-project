@@ -20,9 +20,9 @@
 <body>
 <!-- Navigation and Logo Section -->
 <header>
-    <img src="/assets/reg-logo.jpg" alt="Description" style="max-height: 250px;"
+    <img src="/assets/Logo2.png" alt="Description" style="max-height: 220px;"
          class="mx-auto d-block center-image reg-logo img-fluid">
-    <nav class="navbar navbar-expand-lg text-center bg-dark p-3 text-light">
+    <nav class="navbar navbar-expand-lg text-center p-3 text-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -46,20 +46,18 @@
     <!-- Mission Section -->
         <section id="mission" class="mb-2 d-flex">
             <div class="row">
-                <div class="">
-                    <h1 class="text-center font-face">Our Mission</h1>
-                    <h5>We are delighted to introduce you to The Serene Scene Esty Lounge, an exceptional destination for
+                    <h1 class="text-center fst-italic font-face">Our Mission</h1>
+                    <h4>We are delighted to introduce you to The Serene Scene Esty Lounge, an exceptional destination for
                         luxury skincare, massage, lash services, and cosmetic injections in Duncanville, TX.
                         At The Serene Scene, our mission is to create a luxurious and supportive environment where
                         estheticians can thrive and innovate. We are dedicated to fostering a community of excellence by
                         providing exceptional space, resources, and support. Our aim is to help our tenants grow their
                         businesses and achieve their professional goals while enhancing the esthetician experience through
-                        outstanding service, collaboration, and a shared passion for beauty and well-being.</h5>
+                        outstanding service, collaboration, and a shared passion for beauty and well-being.</h4>
                 </div>
-            </div>
         </section>
         <!-- Toni Section -->
-        <section class="card">
+        <section class="card" style="background-color: #eeded0;">
             <div class="card-body align-middle">
                 <div class="row text-lg-start mb-4">
                     <div class="col-md-4 p-5">
@@ -69,8 +67,8 @@
                     <div class="col-md-8">
                         <br>
                         <br>
-                        <h2 class="dancing-script">Toni Williams</h2>
-                        <h5 class="mb-3"><strong>Co-Owner/ Licensed Esthetician</strong></h5>
+                        <h2 class="fst-italic" style="color: #3e605c;"><strong>Toni Williams</strong></h2>
+                        <h5 class="mb-3"><strong>Owner | Licensed Esthetician</strong></h5>
                         <h4>
                             We’re thrilled to introduce Toni Williams, the visionary owner of Serene Scene Esty Lounge! Born
                             and
@@ -105,7 +103,7 @@
             </div>
         </section>
         <!-- Akeyia Section -->
-        <section  class="card">
+        <section  class="card" style="background-color: #d7bfad;">
             <div class="card-body">
                 <div class="row text-lg-start">
                     <div class="col-md-4 p-5">
@@ -115,8 +113,8 @@
                     <div class="col-md-8">
                         <br>
                         <br>
-                        <h2 class="dancing-script">Akeyia Chukes</h2>
-                        <h5 class="mb-3"><strong>Co-Owner/ Licensed Esthetician</strong></h5>
+                        <h2 class="fst-italic" style="color: #3e605c;"><strong>Akeyia Chukes</strong></h2>
+                        <h5 class="mb-3"><strong>Owner | Licensed Esthetician</strong></h5>
                         <h4 class="text-justify">
                             Akeyia Chukes, 28, is a dedicated and skilled licensed esthetician with three years of
                             experience, driven by a deep passion for helping individuals feel their best.
@@ -168,17 +166,17 @@
 </div>
 <footer class="py-3 footer">
     <ul class="nav d-flex justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="/landing" class="nav-link px-2 "
+        <li class="nav-item"><a href="/landing" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Home</a></li>
-        <li class="nav-item"><a href="/aboutUs" class="nav-link px-2 "
+        <li class="nav-item"><a href="/aboutUs" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">About</a></li>
-        <li class="nav-item"><a href="/services" class="nav-link px-2 " style="color: #304e45; font-size:larger">Services</a>
+        <li class="nav-item"><a href="/services" class="text-white nav-link px-2 " style="color: #304e45; font-size:larger">Services</a>
         </li>
-        <li class="nav-item"><a href="/careers" class="nav-link px-2 "
+        <li class="nav-item"><a href="/careers" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Careers</a></li>
-        <li class="nav-item"><a href="/gallery" class="nav-link px-2 "
+        <li class="nav-item"><a href="/gallery" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Gallery</a></li>
-        <li class="nav-item"><a href="/contact" class="nav-link px-2 "
+        <li class="nav-item"><a href="/contact" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Contact</a></li>
     </ul>
     <div class="d-flex justify-content-center">

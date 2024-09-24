@@ -21,9 +21,9 @@
 <body>
 <!-- Navigation and Logo Section -->
 <header>
-    <img src="/assets/reg-logo.jpg" alt="Description" style="max-height: 250px;"
+    <img src="/assets/Logo2.png" alt="Description" style="max-height: 220px;"
          class="mx-auto d-block center-image reg-logo img-fluid">
-    <nav class="navbar navbar-expand-lg text-center bg-dark p-3 text-light">
+    <nav class="navbar navbar-expand-lg text-center p-3 text-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -47,16 +47,16 @@
     <!-- Career Main Section -->
     <div class="row mt-4">
         <div class="col-md-12 text-center">
-            <h1 style="color: #304e45;"><strong>Looking for a Serene Space to Grow Your Business?</strong></h1>
+            <h1 style="color: #3e605c;"><strong>Looking for a Serene Space to Grow Your Business?</strong></h1>
             <h4 class="mt-3"><strong>We have 2 private suites and an open floor space available for immediate
                 move-in!</strong></h4>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12 text-center">
-            <div class="card shadow mb-3" style="">
+            <div class="card shadow mb-3" style="background-color: #eeded0;">
                 <div class="card-body">
-                    <h2><strong>🌟 Special Offer:</strong></h2>
+                    <h2 style="color: #3e605c;"><strong>🌟 Special Offer:</strong></h2>
                     <h5><strong>MOVE-IN SPECIAL:</strong> Email <a href="mailto:thestudioconceptdal@gmail.com"
                                                                    class="text-info-emphasis">thestudioconceptdal@gmail.com</a>
                         to book a
@@ -79,7 +79,7 @@
         <div class="d-flex align-items-stretch gap-2">
             <!-- Location Features Card -->
             <div class="col-md-6 d-flex">
-                <div class="card mb-3 shadow-sm w-100">
+                <div class="card mb-3 shadow-sm w-100" style="background-color: #d7bfad;">
                     <div class="row g-0">
                         <div class="col-md-6 order-md-2">
                             <img src="/assets/building.jpg" class="img-fluid" alt="Building"
@@ -89,17 +89,17 @@
                             <div class="card-body">
                                 <h5 class="card-title"><strong>✨ Location Features:</strong></h5>
                                 <ul>
-                                    <li>Private 8x11 feet suite</li>
-                                    <li>Sink with private suite</li>
-                                    <li>Luxury vinyl plank flooring</li>
-                                    <li>24/7 security camera</li>
-                                    <li>Complimentary Wi-Fi</li>
-                                    <li>Designated waiting area</li>
-                                    <li>Break room with shared microwave and mini-fridge</li>
-                                    <li>Wash and Dryer</li>
-                                    <li>Quiet and peaceful environment</li>
-                                    <li>24/7 entry</li>
-                                    <li>Spacious parking space</li>
+                                    <li><strong>Private 8x11 feet suite</strong></li>
+                                    <li><strong>Sink with private suite</strong></li>
+                                    <li><strong>Luxury vinyl plank flooring</strong></li>
+                                    <li><strong>24/7 security camera</strong></li>
+                                    <li><strong>Complimentary Wi-Fi</strong></li>
+                                    <li><strong>Designated waiting area</strong></li>
+                                    <li><strong>Break room with shared microwave and mini-fridge</strong></li>
+                                    <li><strong>Wash and Dryer</strong></li>
+                                    <li><strong>Quiet and peaceful environment</strong></li>
+                                    <li><strong>24/7 entry</strong></li>
+                                    <li><strong>Spacious parking space</strong></li>
                                 </ul>
                             </div>
                         </div>
@@ -108,7 +108,7 @@
             </div>
             <!-- Ideal For Card -->
             <div class="col-md-6 d-flex">
-                <div class="card mb-3 shadow-sm w-100">
+                <div class="card mb-3 shadow-sm w-100" style="background-color: #d7bfad;">
                     <div class="row g-0">
                         <div class="col-md-6 order-md-2">
                             <img src="/assets/now-leasing.jpg" class="img-fluid" alt="Ideal For"
@@ -118,18 +118,16 @@
                             <div class="card-body">
                                 <h5 class="card-title"><strong>🏠 Ideal Location For:</strong></h5>
                                 <ul>
-                                    <li>Massage Therapists</li>
-                                    <li>Nail Technicians</li>
-                                    <li>Lash Technicians</li>
-                                    <li>Tattoo Artists</li>
-                                    <li>Facial Specialists</li>
-                                    <li>Wax Techs</li>
-                                    <li>Teeth Whitening/Gem Technicians</li>
-                                    <li>Estheticians</li>
-                                    <li>Permanent MUA</li>
-                                    <li>Makeup Artists</li>
-                                    <li>Lip Filler Technicians</li>
-                                    <li>Other Spa Professionals</li>
+                                    <li><strong>Estheticians</strong></li>
+                                    <li><strong>Nail Artists</strong></li>
+                                    <li><strong>Makeup Artists</strong></li>
+                                    <li><strong>Permanent MUA</strong></li>
+                                    <li><strong>Lash Technicians</strong></li>
+                                    <li><strong>Facial Specialists</strong></li>
+                                    <li><strong>Wax Technicians</strong></li>
+                                    <li><strong>Lip Filler Techs</strong></li>
+                                    <li><strong>Teeth Whitening</strong></li>
+                                    <li><strong>Other Spa Professionals</strong></li>
                                 </ul>
                             </div>
                         </div>
@@ -162,17 +160,17 @@
 </div>
 <footer class="py-3 footer">
     <ul class="nav d-flex justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="/landing" class="nav-link px-2 "
+        <li class="nav-item"><a href="/landing" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Home</a></li>
-        <li class="nav-item"><a href="/aboutUs" class="nav-link px-2 "
+        <li class="nav-item"><a href="/aboutUs" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">About</a></li>
-        <li class="nav-item"><a href="/services" class="nav-link px-2 " style="color: #304e45; font-size:larger">Services</a>
+        <li class="nav-item"><a href="/services" class="text-white nav-link px-2 " style="color: #304e45; font-size:larger">Services</a>
         </li>
-        <li class="nav-item"><a href="/careers" class="nav-link px-2 "
+        <li class="nav-item"><a href="/careers" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Careers</a></li>
-        <li class="nav-item"><a href="/gallery" class="nav-link px-2 "
+        <li class="nav-item"><a href="/gallery" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Gallery</a></li>
-        <li class="nav-item"><a href="/contact" class="nav-link px-2 "
+        <li class="nav-item"><a href="/contact" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Contact</a></li>
     </ul>
     <div class="d-flex justify-content-center">

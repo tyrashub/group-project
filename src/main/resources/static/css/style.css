@@ -1,23 +1,25 @@
 
 .card {
-    background-color: #d4f5d4;
+    background-color: rgba(184, 218, 184, 0.76);
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #333;
 }
-
+.btn {
+    background-color: #3e605c;
+}
 .footer {
-    background-color: #d4f5d4;
+    background-color: #a2c2a2;
 }
 .nav-links {
     text-decoration: none;
 }
 
-/*.navbar {*/
-/*    background-color: #2c4d2c;*/
-/*}*/
+.navbar {
+    background-color: #3e605c;
+}
 
 .service-img {
     width: 100%;
@@ -196,9 +198,11 @@ footer {
     font-family: "Edwardian Script ITC";
 }
 
-.html {
-    background-image: url('/static/assets/beige-bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+body {
+    background-image: url('https://i.pinimg.com/474x/17/74/11/177411c058180e9ceef96ceb2fd39e03.jpg') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    filter: blur(0);
+    /*background-position: center !important;*/
+    /*background-color: #ffe7d3;*/
 }
