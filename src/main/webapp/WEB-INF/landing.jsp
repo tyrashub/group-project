@@ -79,7 +79,7 @@
     <!-- Founders Section -->
     <section id="founders" class="card shadow" style="background-color: #eeded0;">
         <div class="card-body">
-            <h1 class="mb-4" style="color:  #3e605c;"><strong>Founders</strong></h1>
+            <h1 class="mb-4 fst-italic" style="color:  #3e605c;"><strong>Founders</strong></h1>
             <div class="row text-lg-start mb-4">
                 <div class="col-md-4">
                     <img src="/assets/Toni.jpg" alt="Toni Williams" class="img-fluid founders-img"
@@ -143,7 +143,7 @@
     <!-- Services Section -->
     <section id="services" class="card shadow mb-3">
         <div class="card-body">
-            <h1 class="mb-4" style="color:  #3e605c;"><strong>Our Service Professionals</strong></h1>
+            <h1 class="mb-4 fst-italic" style="color:  #3e605c;"><strong>Our Service Professionals</strong></h1>
             <div class="row">
                 <div class="col-lg-2">
                     <ul style="font-size: 19px;">
@@ -194,7 +194,7 @@
                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZuH6mhogCTJb1qLzVC1mPlax5W0P0MDc&callback=initMap"></script>
             </div>
             <section class="text-center">
-                <h1 style="color: #304e45;"><strong>Location & Salon Hours</strong></h1>
+                <h1 class="fst-italic" style="color: #304e45;"><strong>Location & Salon Hours</strong></h1>
                 <h4 class="fst-italic"><strong>The Serene Scene Esty Lounge</strong></h4>
                 <h5 class="fst-italic"><strong>118 N Main, Duncanville, Texas 75116</strong></h5>
                 <h6><a href="mailto:thestudioconceptdal@gmail.com" class="text-white">thestudioconceptdal@gmail.com</a></h6>
@@ -209,7 +209,7 @@
     <section id="contact">
         <div class="card shadow mb-3" >
             <div class="card-body">
-                <h1 style="font-size: xxx-large; color: #304e45;"><strong>Contact Us</strong></h1>
+                <h1 class="fst-italic" style="font-size: xxx-large; color: #304e45;"><strong>Contact Us</strong></h1>
                 <div class="row">
                     <div class="col-md-6 mt-3">
                         <h3 class="text-justify ">If you are interested in becoming a Tenant and offering your services,

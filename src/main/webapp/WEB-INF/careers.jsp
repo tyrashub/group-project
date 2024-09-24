@@ -47,7 +47,7 @@
     <!-- Career Main Section -->
     <div class="row mt-4">
         <div class="col-md-12 text-center">
-            <h1 style="color: #3e605c;"><strong>Looking for a Serene Space to Grow Your Business?</strong></h1>
+            <h1 class="fst-italic" style="color: #3e605c;"><strong>Looking for a Serene Space to Grow Your Business?</strong></h1>
             <h4 class="mt-3"><strong>We have 2 private suites and an open floor space available for immediate
                 move-in!</strong></h4>
         </div>

@@ -35,7 +35,7 @@
 </header>
 <main class="container">
     <!-- Gallery Section -->
-    <h1 class="mt-3" style="font-size: xxx-large; color: #3e605c;"><strong>Our Gallery</strong></h1>
+    <h1 class="mt-3 fst-italic" style="font-size: xxx-large; color: #3e605c;"><strong>Our Gallery</strong></h1>
     <div class="card shadow mb-3" style="background-color: #eeded0;">
         <div class="card-body">
             <div class="card-body">
@@ -118,17 +118,17 @@
                     </button>
                 </div>
 
-                <h4 class="mt-3"> Step into a beautifully designed workspace that blends elegance and functionality,
+                <h4 class="mt-3 fw-light"> Step into a beautifully designed workspace that blends elegance and functionality,
                     offering the perfect serene environment for professionals to grow their businesses. Our
                     suites and shared spaces are thoughtfully crafted with modern amenities, ensuring comfort for both you and your
                     clients. Each space is renovated, well-lit, spacious, and ready to be customized to reflect your personal
                     style!
                     <br>
+                    <br>
                     Whether you're looking for a private suite or a booth in our open floor space, our location provides a professional
                     and luxurious setting that will impress your clients and elevate your brand. Browse through our gallery to
                     get a feel for the inviting atmosphere that awaits you!
                     </h4>
-                <br>
                 <br>
                 <h6 class="fst-italic"><strong>Visit our <a href="/careers">career</a> page to schedule a tour and learn more about how to get started!</strong></h6>
             </div>

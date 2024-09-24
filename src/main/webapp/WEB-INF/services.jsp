@@ -46,7 +46,7 @@
 <main class="container">
     <!-- Services Section -->
     <section class="mt-3">
-            <h1 style="font-size: xxx-large; color: #304e45;"><strong>Services</strong></h1>
+            <h1 class="fst-italic" style="font-size: xxx-large; color: #304e45;"><strong>Services</strong></h1>
             <!-- Relaxing Facials Card -->
             <div class="card mb-3">
                 <div class="row g-0">
