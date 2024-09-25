@@ -234,8 +234,8 @@
                                     <input type="email" id="email" name="email" class="form-control" required>
                                 </div>
                                 <div class="col-auto">
-                                    <label for="phone" class="form-label text-white d-block">Phone Number:</label>
-                                    <input type="tel" id="phone" name="phone" class="form-control" required>
+                                    <label for="phoneNumber" class="form-label text-white d-block">Phone Number:</label>
+                                    <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control" required>
                                 </div>
                             </div>
                             <div class="mb-3">

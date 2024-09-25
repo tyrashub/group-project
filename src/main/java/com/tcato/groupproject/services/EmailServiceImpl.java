@@ -14,7 +14,7 @@ public class EmailServiceImpl implements EmailService {
     }
 
     @Override
-    public void sendSimpleMessage(String subject, String name, String email, String phone, String serviceInterest, String contactMethod, String referral, String message) {
+    public void sendSimpleMessage(String subject, String name, String email, String phoneNumber, String serviceInterest, String contactMethod, String referral, String message) {
         System.out.println("Send me a message");
         SimpleMailMessage emailMessage = new SimpleMailMessage();
         emailMessage.setFrom("noreplyserenescene@gmail.com");
@@ -30,7 +30,7 @@ public class EmailServiceImpl implements EmailService {
                         + "Contact Method: %s%n"
                         + "Referral: %s%n"
                         + "Message: %s",
-                name, email, phone, serviceInterest, contactMethod, referral, message
+                name, email, phoneNumber, serviceInterest, contactMethod, referral, message
         );
         emailMessage.setText(body);
         mailSender.send(emailMessage);

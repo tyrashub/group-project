@@ -56,12 +56,14 @@
                             please fill out this form and we will get back to you promptly!</h3>
                         <br>
                         <h3 class="text-justify fst-italic">For faster response, email us anytime at
-                            <a href="mailto:thestudioconceptdal@gmail.com" class="text-white fst-italic">thestudioconceptdal@gmail.com!</a></h3>
+                            <a href="mailto:thestudioconceptdal@gmail.com" class="text-white fst-italic">thestudioconceptdal@gmail.com!</a>
+                        </h3>
                         <img src="/assets/Logo2.png" alt="logo" class="reg-logo img-fluid"
                              style="max-height: 550px;">
                     </div>
                     <div class="col-md-6">
-                        <form action="/submitContact" method="post"  style="background-color: #a2c2a2; padding: 30px; border-radius: 10px;">
+                        <form action="/contact" method="post"
+                              style="background-color: #a2c2a2; padding: 30px; border-radius: 10px;">
                             <div class="mb-3">
                                 <label for="name" class="form-label text-white">Name:</label>
                                 <input type="text" id="name" name="name" class="form-control" required>
@@ -71,31 +73,30 @@
                                     <label for="email" class="form-label text-white">Email:</label>
                                     <input type="email" id="email" name="email" class="form-control" required>
                                 </div>
-                                <div class="col-auto"><label for="phoneNumber" class="form-label text-white d-block">Phone
-                                    Number:</label>
+                                <div class="col-auto">
+                                    <label for="phoneNumber" class="form-label text-white d-block">Phone Number:</label>
                                     <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control" required>
                                 </div>
-
                             </div>
-
                             <div class="mb-3">
-                                <label class="text-white">Which services are you interested in? (Check all that apply)</label>
+                                <label class="text-white">Which services are you interested in? (Check all that
+                                    apply)</label>
                                 <div>
-                                    <input type="checkbox" id="suiteRental" name="services" value="Suite Rental">
+                                    <input type="checkbox" id="suiteRental" name="serviceInterest" value="Suite Rental">
                                     <label class="text-white" for="suiteRental">Suite Rental</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="estheticianServices" name="services"
+                                    <input type="checkbox" id="estheticianServices" name="serviceInterest"
                                            value="Esthetician Services">
                                     <label class="text-white" for="estheticianServices">Esthetician Services</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="businessConsultation" name="services"
+                                    <input type="checkbox" id="businessConsultation" name="serviceInterest"
                                            value="Business Consultation">
                                     <label class="text-white" for="businessConsultation">Business Consultation</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="otherServices" name="services" value="Other">
+                                    <input type="checkbox" id="otherServices" name="serviceInterest" value="Other">
                                     <label class="text-white" for="otherServices">Other</label>
                                 </div>
                             </div>
@@ -119,20 +120,20 @@
                             <div class="mb-3">
                                 <label class="text-white">How did you hear about us? (Check all that apply)</label>
                                 <div>
-                                    <input type="checkbox" id="socialMedia" name="hearAboutUs" value="Social Media">
+                                    <input type="checkbox" id="socialMedia" name="referral" value="Social Media">
                                     <label class="text-white" for="socialMedia">Social Media</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="friendFamily" name="hearAboutUs" value="Friend/Family">
+                                    <input type="checkbox" id="friendFamily" name="referral" value="Friend/Family">
                                     <label class="text-white" for="friendFamily">Friend/Family</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="online" name="hearAboutUs" value="Online">
+                                    <input type="checkbox" id="online" name="referral" value="Online">
                                     <label class="text-white" for="online">Online</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="otherHearAboutUs" name="hearAboutUs" value="Other">
-                                    <label class="text-white" for="otherHearAboutUs">Other</label>
+                                    <input type="checkbox" id="otherReferral" name="referral" value="Other">
+                                    <label class="text-white" for="otherReferral">Other</label>
                                 </div>
                             </div>
 
@@ -157,11 +158,14 @@
                         <h5 class="" style="color: #3e605c;"><strong>Frequently Asked Questions</strong></h5>
                         <p>
                             <strong>1. What services do you offer?</strong><br>
-                            We offer a variety of services including facials, waxing, massage therapy, lashes, makeup, and hydrotherapy facials. Each treatment is designed to provide a serene and relaxing experience.
+                            We offer a variety of services including facials, waxing, massage therapy, lashes, makeup,
+                            and hydrotherapy facials. Each treatment is designed to provide a serene and relaxing
+                            experience.
                         </p>
                         <p>
                             <strong>2. Do I need to make an appointment?</strong><br>
-                            While we welcome walk-ins, we recommend booking an appointment to ensure availability, especially for specialized services like facials and massage therapy.
+                            While we welcome walk-ins, we recommend booking an appointment to ensure availability,
+                            especially for specialized services like facials and massage therapy.
                         </p>
                         <p>
                             <strong>3. Where is Serene Scene Esty Lounge located?</strong><br>
@@ -170,36 +174,51 @@
                         <h5 class="mt-2" style="color: #3e605c;"><strong>Salon Policy</strong></h5>
                         <p>
                             <strong>1. Appointment Booking</strong><br>
-                            Each independent contractor manages their own appointments. Please contact your service provider directly to schedule, reschedule, or cancel appointments. Serene Scene Esty Lounge is not responsible for managing individual contractor bookings.
+                            Each independent contractor manages their own appointments. Please contact your service
+                            provider directly to schedule, reschedule, or cancel appointments. Serene Scene Esty Lounge
+                            is not responsible for managing individual contractor bookings.
                         </p>
                         <p>
                             <strong>2. Cancellations and No-Shows</strong><br>
-                            Cancellations must be made at least 24 hours in advance. Failure to cancel or no-show for an appointment may result in fees, determined by your service provider. Please refer to your contractor’s individual cancellation policy.
+                            Cancellations must be made at least 24 hours in advance. Failure to cancel or no-show for an
+                            appointment may result in fees, determined by your service provider. Please refer to your
+                            contractor’s individual cancellation policy.
                         </p>
                         <p>
                             <strong>3. Payments</strong><br>
-                            Payments are made directly to the independent contractor providing your service. Contractors accept various forms of payment (cash, credit, debit), but policies may vary. Gratuity is appreciated but not included in service pricing.
+                            Payments are made directly to the independent contractor providing your service. Contractors
+                            accept various forms of payment (cash, credit, debit), but policies may vary. Gratuity is
+                            appreciated but not included in service pricing.
                         </p>
                         <p>
                             <strong>4. Refunds</strong><br>
-                            Refunds or service adjustments must be handled directly with your service provider. Each contractor has their own policies regarding satisfaction guarantees, refunds, or service modifications.
+                            Refunds or service adjustments must be handled directly with your service provider. Each
+                            contractor has their own policies regarding satisfaction guarantees, refunds, or service
+                            modifications.
                         </p>
                         <p>
                             <strong>5. Health and Safety</strong><br>
-                            To ensure a safe and hygienic environment, all clients must disclose any health conditions, allergies, or injuries prior to receiving services. Independent contractors follow state-regulated health and safety guidelines to ensure a clean and safe experience.
+                            To ensure a safe and hygienic environment, all clients must disclose any health conditions,
+                            allergies, or injuries prior to receiving services. Independent contractors follow
+                            state-regulated health and safety guidelines to ensure a clean and safe experience.
                         </p>
                         <p>
                             <strong>6. Children and Guests</strong><br>
-                            For safety and to maintain a serene atmosphere, we ask that children or additional guests not accompany you to your appointment unless they are receiving services.
+                            For safety and to maintain a serene atmosphere, we ask that children or additional guests
+                            not accompany you to your appointment unless they are receiving services.
                         </p>
                         <p>
                             <strong>7. Salon Environment</strong><br>
-                            Serene Scene Esty Lounge provides a peaceful, shared environment for its independent contractors and their clients. We ask that all customers be respectful of others receiving treatments and help maintain a calm and relaxing atmosphere.
+                            Serene Scene Esty Lounge provides a peaceful, shared environment for its independent
+                            contractors and their clients. We ask that all customers be respectful of others receiving
+                            treatments and help maintain a calm and relaxing atmosphere.
                         </p>
                     </div>
                     <div class="col-md-6 d-block">
-                        <img src="/assets/sipping-tea.jpg" alt="logo" class="mt-3 img-fluid" style="max-height: 500px; border-radius: 10px;">
-                        <img src="/assets/founders.jpg" alt="Service" class="img-fluid mt-3" style="width: 100%; border-radius: 10px; max-height: 650px;">
+                        <img src="/assets/sipping-tea.jpg" alt="logo" class="mt-3 img-fluid"
+                             style="max-height: 500px; border-radius: 10px;">
+                        <img src="/assets/founders.jpg" alt="Service" class="img-fluid mt-3"
+                             style="width: 100%; border-radius: 10px; max-height: 650px;">
                     </div>
                 </div>
             </div>
@@ -229,7 +248,8 @@
                 <h1 style="color: #3e605c;"><strong>Location & Salon Hours</strong></h1>
                 <h4 class="fst-italic"><strong>The Serene Scene Esty Lounge</strong></h4>
                 <h5 class="fst-italic"><strong>118 N Main, Duncanville, Texas 75116</strong></h5>
-                <h6><a href="mailto:thestudioconceptdal@gmail.com" class="text-white">thestudioconceptdal@gmail.com</a></h6>
+                <h6><a href="mailto:thestudioconceptdal@gmail.com" class="text-white">thestudioconceptdal@gmail.com</a>
+                </h6>
                 <p><strong>(469)-513-2269</strong></p>
                 <p>Monday-Friday: 9am - 5pm</p>
                 <p>Saturday: 9am - 5pm</p>
@@ -265,7 +285,8 @@
                                 style="color: #304e45; font-size: larger">Home</a></li>
         <li class="nav-item"><a href="/aboutUs" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">About</a></li>
-        <li class="nav-item"><a href="/services" class="text-white nav-link px-2 " style="color: #304e45; font-size:larger">Services</a>
+        <li class="nav-item"><a href="/services" class="text-white nav-link px-2 "
+                                style="color: #304e45; font-size:larger">Services</a>
         </li>
         <li class="nav-item"><a href="/careers" class="text-white nav-link px-2 "
                                 style="color: #304e45; font-size: larger">Careers</a></li>
@@ -300,14 +321,11 @@
         allowDropdown: false,
         initialCountry: "us",
     });
-    input.addEventListener("input", ()=> {
+    input.addEventListener("input", () => {
         const number = iti.getNumber();
         console.log(number);
     })
 </script>
-
-<script>(function(t,e,s,o){var n,a,c;t.SMCX=t.SMCX||[],e.getElementById(o)||(n=e.getElementsByTagName(s),a=n[n.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=o,c.src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd1dFyoSzl_2BM_2BPY8Q83FxM3Udcxm5EA57jojj9O74Pv1b.js",a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script>
-
 </body>
 </html>
 

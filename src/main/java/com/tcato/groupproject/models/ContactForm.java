@@ -20,7 +20,7 @@ public class ContactForm {
 
     @NotEmpty
     @PhoneNumber
-    private String phone;
+    private String phoneNumber;
 
     @NotEmpty
     private String serviceInterest;
@@ -43,10 +43,10 @@ public class ContactForm {
     public ContactForm() {
     }
 
-    public ContactForm(String name, String email, String phone, String serviceInterest, String contactMethod, String referral, String message) {
+    public ContactForm(String name, String email, String phoneNumber, String serviceInterest, String contactMethod, String referral, String message) {
         this.name = name;
         this.email = email;
-        this.phone = phone;
+        this.phoneNumber = phoneNumber;
         this.serviceInterest = serviceInterest;
         this.contactMethod = contactMethod;
         this.referral = referral;
@@ -69,12 +69,12 @@ public class ContactForm {
         this.email = email;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public String getContactMethod() {
