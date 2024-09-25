@@ -217,18 +217,13 @@
                 <h1 class="fst-italic" style="font-size: xxx-large; color: #304e45;"><strong>Contact Us</strong></h1>
                 <div class="row">
                     <div class="col-md-6 mt-3">
-                        <h3 class="text-justify ">If you are interested in becoming a Tenant and offering your services,
-                            please fill out this form and we will get back to you promptly!</h3>
+                        <h3 class="text-justify">If you are interested in becoming a Tenant and offering your services, please fill out this form and we will get back to you promptly!</h3>
                         <br>
-                        <h3 class="text-justify fst-italic">For faster response, email us anytime at
-                            <a href="mailto:thestudioconceptdal@gmail.com" class="fst-italic text-white">thestudioconceptdal@gmail.com</a>
-                        </h3>
-                        <img src="/assets/Logo2.png" alt="logo" class="reg-logo img-fluid"
-                             style="max-height: 550px;">
+                        <h3 class="text-justify fst-italic">For faster response, email us anytime at <a href="mailto:thestudioconceptdal@gmail.com" class="fst-italic text-white">thestudioconceptdal@gmail.com</a></h3>
+                        <img src="/assets/Logo2.png" alt="logo" class="reg-logo img-fluid" style="max-height: 550px;">
                     </div>
                     <div class="col-md-6">
-                        <form action="/submitContact" method="post"
-                              style="background-color: #a2c2a2; padding: 30px; border-radius: 10px;">
+                        <form action="/contact" method="post" style="background-color: #a2c2a2; padding: 30px; border-radius: 10px;">
                             <div class="mb-3">
                                 <label for="name" class="form-label text-white">Name:</label>
                                 <input type="text" id="name" name="name" class="form-control" required>
@@ -238,31 +233,27 @@
                                     <label for="email" class="form-label text-white">Email:</label>
                                     <input type="email" id="email" name="email" class="form-control" required>
                                 </div>
-                                <div class="col-auto"><label for="phoneNumber" class="form-label text-white d-block">Phone
-                                    Number:</label>
-                                    <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control" required>
+                                <div class="col-auto">
+                                    <label for="phone" class="form-label text-white d-block">Phone Number:</label>
+                                    <input type="tel" id="phone" name="phone" class="form-control" required>
                                 </div>
-
                             </div>
                             <div class="mb-3">
-                                <label class="text-white">Which services are you interested in? (Check all that
-                                    apply)</label>
+                                <label class="text-white">Which services are you interested in? (Check all that apply)</label>
                                 <div>
-                                    <input type="checkbox" id="suiteRental" name="services" value="Suite Rental">
+                                    <input type="checkbox" id="suiteRental" name="serviceInterest" value="Suite Rental">
                                     <label class="text-white" for="suiteRental">Suite Rental</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="estheticianServices" name="services"
-                                           value="Esthetician Services">
+                                    <input type="checkbox" id="estheticianServices" name="serviceInterest" value="Esthetician Services">
                                     <label class="text-white" for="estheticianServices">Esthetician Services</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="businessConsultation" name="services"
-                                           value="Business Consultation">
+                                    <input type="checkbox" id="businessConsultation" name="serviceInterest" value="Business Consultation">
                                     <label class="text-white" for="businessConsultation">Business Consultation</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="otherServices" name="services" value="Other">
+                                    <input type="checkbox" id="otherServices" name="serviceInterest" value="Other">
                                     <label class="text-white" for="otherServices">Other</label>
                                 </div>
                             </div>
@@ -286,20 +277,20 @@
                             <div class="mb-3">
                                 <label class="text-white">How did you hear about us? (Check all that apply)</label>
                                 <div>
-                                    <input type="checkbox" id="socialMedia" name="hearAboutUs" value="Social Media">
+                                    <input type="checkbox" id="socialMedia" name="referral" value="Social Media">
                                     <label class="text-white" for="socialMedia">Social Media</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="friendFamily" name="hearAboutUs" value="Friend/Family">
+                                    <input type="checkbox" id="friendFamily" name="referral" value="Friend/Family">
                                     <label class="text-white" for="friendFamily">Friend/Family</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="online" name="hearAboutUs" value="Online">
+                                    <input type="checkbox" id="online" name="referral" value="Online">
                                     <label class="text-white" for="online">Online</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" id="otherHearAboutUs" name="hearAboutUs" value="Other">
-                                    <label class="text-white" for="otherHearAboutUs">Other</label>
+                                    <input type="checkbox" id="otherReferral" name="referral" value="Other">
+                                    <label class="text-white" for="otherReferral">Other</label>
                                 </div>
                             </div>
 
