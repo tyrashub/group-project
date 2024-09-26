@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services Page</title>
+    <title>Gallery Page</title>
     <link rel="stylesheet" href="/css/bootstrap (minty).css"/>
     <link rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -63,10 +63,6 @@
                                 aria-label="Slide 10"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10"
                                 aria-label="Slide 11"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11"
-                                aria-label="Slide 12"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12"
-                                aria-label="Slide 13"></button>
                     </div>
                     <div class="carousel-inner hide-overflow">
                         <div class="carousel-item active">
@@ -96,12 +92,12 @@
                         <div class="carousel-item">
                             <img src="/assets/gallery1.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
                         </div>
-                        <div class="carousel-item">
-                            <img src="/assets/gallery8.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/assets/gallery9.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
-                        </div>
+<%--                        <div class="carousel-item">--%>
+<%--                            <img src="/assets/gallery8.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">--%>
+<%--                        </div>--%>
+<%--                        <div class="carousel-item">--%>
+<%--                            <img src="/assets/gallery9.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">--%>
+<%--                        </div>--%>
                         <div class="carousel-item">
                             <img src="/assets/gallery11.jpeg" class="carousel-img d-block w-100" alt="Gallery IMG">
                         </div>

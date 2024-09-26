@@ -13,7 +13,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ContactUs Page</title>
+    <title>About Us Page</title>
     <link rel="stylesheet" href="/css/bootstrap (minty).css"/>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -46,7 +46,7 @@
     <!-- Mission Section -->
         <section id="mission" class="mb-2 d-flex">
             <div class="row">
-                    <h1 class="text-center fst-italic font-face">Our Mission</h1>
+                    <h1 class="text-center fst-italic">Our Mission</h1>
                     <h4>We are delighted to introduce you to The Serene Scene Esty Lounge, an exceptional destination for
                         luxury skincare, massage, lash services, and cosmetic injections in Duncanville, TX.
                         At The Serene Scene, our mission is to create a luxurious and supportive environment where
